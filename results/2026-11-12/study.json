@@ -1,0 +1,85 @@
+{
+  "files": [
+    {
+      "bytes": 475,
+      "path": "config.json",
+      "sha256": "ba25168ad806cadfc6841bdc7a570e2b6d2abbc9a75a62ea2d6a288c2e0219fb"
+    },
+    {
+      "bytes": 31093,
+      "path": "runs.json",
+      "sha256": "ef29d6624708ccc7e9823ad45a470e5b1c29c01a4807da1c1ca91c6aa3545753"
+    },
+    {
+      "bytes": 5928641,
+      "path": "evaluations.jsonl",
+      "sha256": "4c3c090eeb4e4d96ab297030bb949291183744fc4b679817386b8ed84bd62484"
+    },
+    {
+      "bytes": 1638,
+      "path": "seed_banks/monitor.json",
+      "sha256": "615b03926049798e5c27c5c42400b93ddc2ab58c2c194fd848531d1a92f9c977"
+    },
+    {
+      "bytes": 3207,
+      "path": "seed_banks/final.json",
+      "sha256": "addc37433d160247aa13ef944a6e210f28bf9503a0936bccbc37b76e9f515a53"
+    }
+  ],
+  "kind": "sparse_parallel_q_outcomes",
+  "protocol": {
+    "archive_sources": "Not included. Historical source hashes identify the recorded implementation, not the current standalone package.",
+    "environment": "LunarLander-v3",
+    "evaluation_truncation": "recorded and continued; unresolved guard episodes are censored",
+    "learning_rewards": "zero until native terminal +100/-100",
+    "replication_unit": "training seed",
+    "training_truncation": "ignored; no artificial training timeout penalty"
+  },
+  "provenance": {
+    "configuration_scope": "Scientific settings only; display-only settings are omitted from the exported configuration.",
+    "created_utc": "2026-11-12T17:50:55.581745+00:00",
+    "finished_utc": "2026-11-12T22:43:49.387600+00:00",
+    "historical_source_hashes": [
+      {
+        "component": "aggregation",
+        "sha256": "2bf9b85a0ab86749e899ba5fa83f10546b08d63a95c14d20864dd8ab38e62d48"
+      },
+      {
+        "component": "evaluation",
+        "sha256": "ddcfb615ec2722d03fa84a6a4027b52ab0d2af00341f15741519a3531bfed5d0"
+      },
+      {
+        "component": "orchestration",
+        "sha256": "a2cd0d9dd8ab0858e941df38c5eb02e54021c4588acc1a4e990aa5cb890d84e4"
+      },
+      {
+        "component": "study_instrumentation",
+        "sha256": "40da2278b7fb16bdde75ed2b561c7451dd8905e47305d88c495c63506dda974d"
+      },
+      {
+        "component": "trainer",
+        "sha256": "fa47e6dd2fa7e1a21431032a271769870919f8dfa59e4dcddfb4dadc1f0bb616"
+      },
+      {
+        "component": "worker",
+        "sha256": "8d04086f73cfa26920c7f0a1bf6feaed60285e9ed495e42d94e912b90698159e"
+      }
+    ],
+    "omitted_artifacts": "Checkpoint binaries and runtime logs are not included. Source snapshots are available only when source_snapshot_status is included and their files are listed in the bundle manifest.",
+    "runtime_dependencies": {
+      "box2d-py": "2.3.5",
+      "gymnasium": "1.1.1",
+      "matplotlib": "3.9.4",
+      "mpi4py": "4.1.2",
+      "numpy": "2.0.2",
+      "pygame": "2.6.1",
+      "torch": "2.8.0"
+    },
+    "source_hash_scope": "Historical fingerprints identify source components used for the recorded study; they do not identify current package files or establish source availability.",
+    "source_snapshot_status": "not_included",
+    "study_id": "actual_trainer_aggregation_comparison",
+    "validation_at_extraction": "Recorded config, seed banks, completed outputs and checkpoint hashes were verified at extraction; episode counts were recomputed. Portable analysis verifies the included records."
+  },
+  "schema_version": 1,
+  "selection": {}
+}

@@ -1,0 +1,65 @@
+{
+  "analysis_sources": [
+    {
+      "path": "sparse_parallel_q/analyze.py",
+      "sha256": "69a7b275a189497f0b2d8165e6d5f41f1117d328068a77ecc3a919b868af101a"
+    },
+    {
+      "path": "sparse_parallel_q/analysis_io.py",
+      "sha256": "8082181fce4e1edc530c443c54de6b8a876cfc4897d9304cb524a07e4b458fde"
+    }
+  ],
+  "checkpoint_scope": "Native studies verify checkpoint bytes; portable bundles retain historical checkpoint hashes only",
+  "input_files": [
+    {
+      "path": "study.json",
+      "sha256": "f7665b5afc7f4e556188ca5217b147362aa350d950b8caac1a2655eba536eeb2"
+    },
+    {
+      "bytes": 475,
+      "path": "config.json",
+      "sha256": "ba25168ad806cadfc6841bdc7a570e2b6d2abbc9a75a62ea2d6a288c2e0219fb"
+    },
+    {
+      "bytes": 31093,
+      "path": "runs.json",
+      "sha256": "ef29d6624708ccc7e9823ad45a470e5b1c29c01a4807da1c1ca91c6aa3545753"
+    },
+    {
+      "bytes": 5928641,
+      "path": "evaluations.jsonl",
+      "sha256": "4c3c090eeb4e4d96ab297030bb949291183744fc4b679817386b8ed84bd62484"
+    },
+    {
+      "bytes": 1638,
+      "path": "seed_banks/monitor.json",
+      "sha256": "615b03926049798e5c27c5c42400b93ddc2ab58c2c194fd848531d1a92f9c977"
+    },
+    {
+      "bytes": 3207,
+      "path": "seed_banks/final.json",
+      "sha256": "addc37433d160247aa13ef944a6e210f28bf9503a0936bccbc37b76e9f515a53"
+    }
+  ],
+  "matplotlib_version": "3.9.4",
+  "outputs": [
+    {
+      "path": "summary.json",
+      "sha256": "c9f3be04df2a9fdba60dc4343f418b5542ca655024fc60ece10a4ad3996f7c5d"
+    },
+    {
+      "path": "learning_speed.json",
+      "sha256": "c8e0546eea3a67df1a8cf0371bdbca7d45e5ca9e6266c55be7b987f467229851"
+    },
+    {
+      "path": "monitoring_landing_fraction.png",
+      "sha256": "b5b822ec96a22bb47f7be23aef065d8a9ab31563fa56d562239bc10c7436548c"
+    },
+    {
+      "path": "monitoring_landing_fraction.svg",
+      "sha256": "0ab5e17d4e21531c053d96d4df22ff43af67f2a77f8c463b394e51ad5a5e7a1c"
+    }
+  ],
+  "schema_version": 1,
+  "validation": "Input hashes, complete selected matrix, raw outcomes, seeds and censoring denominators verified"
+}

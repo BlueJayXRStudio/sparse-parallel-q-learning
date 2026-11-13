@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+.DS_Store
+.env
+data/
+analysis-output/
+*.pkl
+*.pickle
+*.log

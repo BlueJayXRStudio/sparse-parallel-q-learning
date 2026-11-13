@@ -1,0 +1,2843 @@
+{
+  "completed_runs": 12,
+  "condition_descriptives": [
+    {
+      "condition": "frequency_wta",
+      "mean_censoring_bounds": [
+        0.7933333333333333,
+        0.795
+      ],
+      "observed_success_fraction": {
+        "mean": 0.7933333333333333,
+        "n_training_seeds": 3,
+        "sample_standard_deviation": 0.0256580071972344
+      },
+      "training_seeds": [
+        101,
+        102,
+        103
+      ]
+    },
+    {
+      "condition": "count_weighted_mean",
+      "mean_censoring_bounds": [
+        0.675,
+        0.6783333333333333
+      ],
+      "observed_success_fraction": {
+        "mean": 0.675,
+        "n_training_seeds": 3,
+        "sample_standard_deviation": 0.04769696007084727
+      },
+      "training_seeds": [
+        101,
+        102,
+        103
+      ]
+    },
+    {
+      "condition": "uniform_mean",
+      "mean_censoring_bounds": [
+        0.5866666666666667,
+        0.59
+      ],
+      "observed_success_fraction": {
+        "mean": 0.5866666666666667,
+        "n_training_seeds": 3,
+        "sample_standard_deviation": 0.11239810200058241
+      },
+      "training_seeds": [
+        101,
+        102,
+        103
+      ]
+    },
+    {
+      "condition": "random_visited",
+      "mean_censoring_bounds": [
+        0.79,
+        0.7966666666666666
+      ],
+      "observed_success_fraction": {
+        "mean": 0.79,
+        "n_training_seeds": 3,
+        "sample_standard_deviation": 0.02179449471770332
+      },
+      "training_seeds": [
+        101,
+        102,
+        103
+      ]
+    }
+  ],
+  "evaluation_assessments": 120,
+  "final_rows": [
+    {
+      "actual_training_steps": 274004324,
+      "checkpoint_sha256": "1061032c2cea556021f4e2391e93dcd2a6290be63c2532f4c56a3bf0818d5c12",
+      "completed_epochs": 264,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 200,
+        "evaluation_steps": 112572,
+        "failures": 40,
+        "mean_raw_environment_return": 167.7354868877723,
+        "observed_success_fraction": 0.8,
+        "success_fraction_bounds": [
+          0.8,
+          0.8
+        ],
+        "successes": 160
+      },
+      "original_results_sha256": "cb7e4efe8e6c3f47c2f2f5bff1ee1f54f4d3fcc7cd73e03dad9b951c12b3026c",
+      "replay_updates": 273977575,
+      "training_episodes": 979289,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 272916499,
+      "checkpoint_sha256": "f88d6c175130af61e05d030ca4cd7b67d45da0b1e72882ddb85ceb02471d15eb",
+      "completed_epochs": 264,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 200,
+        "evaluation_steps": 144868,
+        "failures": 54,
+        "mean_raw_environment_return": 160.173875819496,
+        "observed_success_fraction": 0.725,
+        "success_fraction_bounds": [
+          0.725,
+          0.73
+        ],
+        "successes": 145
+      },
+      "original_results_sha256": "59388c7bbebe9263ba656cd16d48b5965881072211c75dcf9239b61737454f95",
+      "replay_updates": 272873370,
+      "training_episodes": 1146359,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 272569079,
+      "checkpoint_sha256": "f7f524b5d751b63163e309ed64de4d60723392f3cc8acae72db72ae3aaeb8824",
+      "completed_epochs": 264,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 200,
+        "evaluation_steps": 48536,
+        "failures": 88,
+        "mean_raw_environment_return": 89.36643995260955,
+        "observed_success_fraction": 0.56,
+        "success_fraction_bounds": [
+          0.56,
+          0.56
+        ],
+        "successes": 112
+      },
+      "original_results_sha256": "f9db11a39b24e038833b6ee93223cda0fa90e6448c3329ba41445ad22f1f3eb2",
+      "replay_updates": 272548881,
+      "training_episodes": 1145753,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 276235848,
+      "checkpoint_sha256": "b21d2779becf8769d04e87bce8d32ccbd49ebf6c0b1388fbea369ceb9a32847c",
+      "completed_epochs": 264,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 200,
+        "evaluation_steps": 367117,
+        "failures": 44,
+        "mean_raw_environment_return": 157.4960758354518,
+        "observed_success_fraction": 0.775,
+        "success_fraction_bounds": [
+          0.775,
+          0.78
+        ],
+        "successes": 155
+      },
+      "original_results_sha256": "4a04aa5f066063bfb14f2b7798ac4d96c82ef8fd2129b9c373eba1725a13db05",
+      "replay_updates": 273018467,
+      "training_episodes": 1017196,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 272592883,
+      "checkpoint_sha256": "ee0cdbb62a572ed9f4c2bd9b52adffa26390531900c9439c1bc1dc4d73562e63",
+      "completed_epochs": 264,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 200,
+        "evaluation_steps": 49302,
+        "failures": 66,
+        "mean_raw_environment_return": 138.70272868733448,
+        "observed_success_fraction": 0.67,
+        "success_fraction_bounds": [
+          0.67,
+          0.67
+        ],
+        "successes": 134
+      },
+      "original_results_sha256": "727699b2037e5bb469e5c23df4ad696697f2fb6f42c362cc911382fb12048c55",
+      "replay_updates": 272592451,
+      "training_episodes": 1145493,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 276141939,
+      "checkpoint_sha256": "0ed971cc907ac195ae4273c1e36ef6a038d6c317794dc45fc245bec256925e4a",
+      "completed_epochs": 264,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 200,
+        "evaluation_steps": 220837,
+        "failures": 101,
+        "mean_raw_environment_return": 29.751398126098113,
+        "observed_success_fraction": 0.49,
+        "success_fraction_bounds": [
+          0.49,
+          0.495
+        ],
+        "successes": 98
+      },
+      "original_results_sha256": "3b03959920de01e23b77cb320debaf0848643d9c55aab2a9fed8cf6825f0544d",
+      "replay_updates": 271843609,
+      "training_episodes": 1233673,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 284208581,
+      "checkpoint_sha256": "dfdcf78a2f88b14d6e024c1bf58f5206427c8522fcad6f67de7f30d8ba5845d9",
+      "completed_epochs": 264,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 200,
+        "evaluation_steps": 101877,
+        "failures": 37,
+        "mean_raw_environment_return": 188.83649757290195,
+        "observed_success_fraction": 0.815,
+        "success_fraction_bounds": [
+          0.815,
+          0.815
+        ],
+        "successes": 163
+      },
+      "original_results_sha256": "d1a6c06229563c89482e568fc9b0c46a436903875314b2ceecf6d2fd73cba13c",
+      "replay_updates": 274385299,
+      "training_episodes": 937319,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 273520923,
+      "checkpoint_sha256": "f6b08f280669198afd1b75d540236f96fe3ea420d0105c5e603d27047a6cbf7a",
+      "completed_epochs": 264,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 200,
+        "evaluation_steps": 134014,
+        "failures": 37,
+        "mean_raw_environment_return": 181.24575582969183,
+        "observed_success_fraction": 0.815,
+        "success_fraction_bounds": [
+          0.815,
+          0.815
+        ],
+        "successes": 163
+      },
+      "original_results_sha256": "e10b9c4276ffd7cc4b75a74477702fcc26297d8d0e81da4d931b1f9955ed45c3",
+      "replay_updates": 273488842,
+      "training_episodes": 1050442,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 273514803,
+      "checkpoint_sha256": "73d1ac248cccd7d60d7d4f8681775a1830200e9f43c550829b06bc4d4352ea6d",
+      "completed_epochs": 264,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 200,
+        "evaluation_steps": 146266,
+        "failures": 57,
+        "mean_raw_environment_return": 141.11532180221218,
+        "observed_success_fraction": 0.71,
+        "success_fraction_bounds": [
+          0.71,
+          0.715
+        ],
+        "successes": 142
+      },
+      "original_results_sha256": "905515a573d42f6b0c6e7a0ce8a9cd6ff11597227c7339f7ea106f28596f158e",
+      "replay_updates": 273466235,
+      "training_episodes": 1229057,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 274135436,
+      "checkpoint_sha256": "9ca7e802768055b18e5bb27fea303b07eac3adec021362e57c15610f62400214",
+      "completed_epochs": 264,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 3,
+        "episodes": 200,
+        "evaluation_steps": 354349,
+        "failures": 41,
+        "mean_raw_environment_return": 153.28156477217385,
+        "observed_success_fraction": 0.78,
+        "success_fraction_bounds": [
+          0.78,
+          0.795
+        ],
+        "successes": 156
+      },
+      "original_results_sha256": "ac3c6affe3ed428c7cb032606557272ab5731ec574e8959eb455f62642c8388b",
+      "replay_updates": 273651025,
+      "training_episodes": 962207,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 276021454,
+      "checkpoint_sha256": "31936da489310310fc0edd95e10095f106da63637585ee020eaaaf693dedcf9d",
+      "completed_epochs": 264,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 200,
+        "evaluation_steps": 150356,
+        "failures": 46,
+        "mean_raw_environment_return": 160.29741126796705,
+        "observed_success_fraction": 0.765,
+        "success_fraction_bounds": [
+          0.765,
+          0.77
+        ],
+        "successes": 153
+      },
+      "original_results_sha256": "9d8ea9da822bbd7d3e399f0d13bece50f99f20df449836896aedbf17221ef546",
+      "replay_updates": 274339379,
+      "training_episodes": 1051995,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 273234621,
+      "checkpoint_sha256": "39849f2e062f4c0a4b4a85064ee4b5523726c0bb194df57b94f630e81f2f8e8d",
+      "completed_epochs": 264,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 200,
+        "evaluation_steps": 233627,
+        "failures": 73,
+        "mean_raw_environment_return": 127.35235963352363,
+        "observed_success_fraction": 0.63,
+        "success_fraction_bounds": [
+          0.63,
+          0.635
+        ],
+        "successes": 126
+      },
+      "original_results_sha256": "1a8837604d70fdac511c11dd43c641c1386f4a53010285fc49a87d1a83568401",
+      "replay_updates": 273228675,
+      "training_episodes": 1179368,
+      "training_seed": 103
+    }
+  ],
+  "full_declared_matrix": true,
+  "interpretation": {
+    "censoring": "included in assigned denominator; bounds are not confidence intervals",
+    "raw_returns": "reporting only; include partial returns for censored episodes",
+    "replication_unit": "training seed, not worker or evaluation episode",
+    "scope": "fixed-budget observations; no inferred convergence epoch or significance test"
+  },
+  "monitoring_curves": [
+    {
+      "actual_training_steps": 33223277,
+      "checkpoint_sha256": "de156b98d7494bcee24c80c410703f9a6ccf4e63b17f7ee4391a2929f014a231",
+      "completed_epochs": 32,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 21673,
+        "failures": 71,
+        "mean_raw_environment_return": 21.875053453920867,
+        "observed_success_fraction": 0.29,
+        "success_fraction_bounds": [
+          0.29,
+          0.29
+        ],
+        "successes": 29
+      },
+      "original_results_sha256": "d1f7dff9a249dd9d0c9b5beea23cd4291029addaeae40fe2dd7ccf5aa80e637d",
+      "replay_updates": 33223277,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 66865129,
+      "checkpoint_sha256": "59804ad31b634caa0b9352472b2001dfb44f558674484f73e6e646b039a96fcd",
+      "completed_epochs": 64,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 25433,
+        "failures": 58,
+        "mean_raw_environment_return": 66.03149576213832,
+        "observed_success_fraction": 0.42,
+        "success_fraction_bounds": [
+          0.42,
+          0.42
+        ],
+        "successes": 42
+      },
+      "original_results_sha256": "d10ff7c13775c973d8f21e4df47b5217ec530bdca07d2e2feb2f4e15b14a53f1",
+      "replay_updates": 66838380,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 100150387,
+      "checkpoint_sha256": "50a5a6715f7b1b40418f53ec6304c8954abe540ccf345a7f49acc419045adcd7",
+      "completed_epochs": 96,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 2,
+        "episodes": 100,
+        "evaluation_steps": 319804,
+        "failures": 37,
+        "mean_raw_environment_return": 51.798401823939244,
+        "observed_success_fraction": 0.61,
+        "success_fraction_bounds": [
+          0.61,
+          0.63
+        ],
+        "successes": 61
+      },
+      "original_results_sha256": "7b2f23292b47bd4edfc38b7303fbd3e24ffc6b6d356721fc89f8cd94bcc1faa6",
+      "replay_updates": 100123638,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 133222485,
+      "checkpoint_sha256": "f1c3de82a37e10392cefddf0fc3e5f99a613afb8e601147f4623f1e643aff270",
+      "completed_epochs": 128,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 164300,
+        "failures": 25,
+        "mean_raw_environment_return": 132.79565541424287,
+        "observed_success_fraction": 0.74,
+        "success_fraction_bounds": [
+          0.74,
+          0.75
+        ],
+        "successes": 74
+      },
+      "original_results_sha256": "b3477523e2f7b2f6e29f21a442a3949c6c1dd25f75ffcd6884254865517c8454",
+      "replay_updates": 133195736,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 166256312,
+      "checkpoint_sha256": "13bdfaebc4c61432246164a927c365741812ed9b6a9abde533b1dc826c1c4deb",
+      "completed_epochs": 160,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 25192,
+        "failures": 28,
+        "mean_raw_environment_return": 146.9317271900929,
+        "observed_success_fraction": 0.72,
+        "success_fraction_bounds": [
+          0.72,
+          0.72
+        ],
+        "successes": 72
+      },
+      "original_results_sha256": "22bd211434907c2f8cc731417ad95ccf4e70392278ae0da67f448b2db8470d99",
+      "replay_updates": 166229563,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 199430764,
+      "checkpoint_sha256": "35da6739ec0e6d2d3acfe54b75aac82d40bf991db5f610b909dd78338405604c",
+      "completed_epochs": 192,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 110988,
+        "failures": 27,
+        "mean_raw_environment_return": 152.85222293629238,
+        "observed_success_fraction": 0.73,
+        "success_fraction_bounds": [
+          0.73,
+          0.73
+        ],
+        "successes": 73
+      },
+      "original_results_sha256": "512f3e0424d0c2f4456feeded859c769236b4d9beddec926a1fb11dd90c4cb44",
+      "replay_updates": 199404015,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 232517016,
+      "checkpoint_sha256": "5305c6f169359dd2f90ef978c9f01b3c3500e46f3983f1ae66bc6f994040d91b",
+      "completed_epochs": 224,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 126864,
+        "failures": 21,
+        "mean_raw_environment_return": 142.87579027060914,
+        "observed_success_fraction": 0.78,
+        "success_fraction_bounds": [
+          0.78,
+          0.79
+        ],
+        "successes": 78
+      },
+      "original_results_sha256": "e62b6a365bb5734668e36b5578e6285a0c79b8f816eedde7b6f30af9f7a2683f",
+      "replay_updates": 232490267,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 265759235,
+      "checkpoint_sha256": "0c6cd15a8ac29aa87341b0fdbde593ea0e4507410082d618f3a90a9e758318e4",
+      "completed_epochs": 256,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 23476,
+        "failures": 34,
+        "mean_raw_environment_return": 134.74477261884851,
+        "observed_success_fraction": 0.66,
+        "success_fraction_bounds": [
+          0.66,
+          0.66
+        ],
+        "successes": 66
+      },
+      "original_results_sha256": "e6146741b8aaac01fbfdeb91056b7dc62f04b55da9bc73b6d63bda2a213e3458",
+      "replay_updates": 265732486,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 274004324,
+      "checkpoint_sha256": "1061032c2cea556021f4e2391e93dcd2a6290be63c2532f4c56a3bf0818d5c12",
+      "completed_epochs": 264,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 125386,
+        "failures": 25,
+        "mean_raw_environment_return": 143.7815893467309,
+        "observed_success_fraction": 0.74,
+        "success_fraction_bounds": [
+          0.74,
+          0.75
+        ],
+        "successes": 74
+      },
+      "original_results_sha256": "07ae38736e8608f99c76340f14c233e2dcf67f28dd45fba923ec9f6e978165eb",
+      "replay_updates": 273977575,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 33227039,
+      "checkpoint_sha256": "2ddff335d4cfe8642e1ccb62affb8550ba820208f78ad472c84d15c436937ff4",
+      "completed_epochs": 32,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 21309,
+        "failures": 49,
+        "mean_raw_environment_return": 90.06896231357898,
+        "observed_success_fraction": 0.51,
+        "success_fraction_bounds": [
+          0.51,
+          0.51
+        ],
+        "successes": 51
+      },
+      "original_results_sha256": "f7b78d2837bc72c72c1ddbc4a73a918b6dfa7fae9aea7d615631e51f0046140a",
+      "replay_updates": 33223315,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 66700139,
+      "checkpoint_sha256": "762637495f908b7c23f01548ad74671b05f11cbab9d3d502fcf42ad464768425",
+      "completed_epochs": 64,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 121766,
+        "failures": 35,
+        "mean_raw_environment_return": 122.20508290805948,
+        "observed_success_fraction": 0.64,
+        "success_fraction_bounds": [
+          0.64,
+          0.65
+        ],
+        "successes": 64
+      },
+      "original_results_sha256": "12df9931fb5b0895ed57342ca573c078596a47c5dc5266fdb0ded0ebb555df5f",
+      "replay_updates": 66657010,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 99743181,
+      "checkpoint_sha256": "d68e7ab5c42fc5546781872fa4e9ee93aa2a5d8e693d4f940e45acd4b9ef84ae",
+      "completed_epochs": 96,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 2,
+        "episodes": 100,
+        "evaluation_steps": 219579,
+        "failures": 39,
+        "mean_raw_environment_return": 102.96400454710168,
+        "observed_success_fraction": 0.59,
+        "success_fraction_bounds": [
+          0.59,
+          0.61
+        ],
+        "successes": 59
+      },
+      "original_results_sha256": "0f97bf8b54108e0b6a74ce7ed24a02c4a781f79a71f8c1165fd91501d0f66a34",
+      "replay_updates": 99700052,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 132771653,
+      "checkpoint_sha256": "3648cad411e68e14a09dd7d83bba66c7312b332c04cb623907095d848641bb82",
+      "completed_epochs": 128,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 2,
+        "episodes": 100,
+        "evaluation_steps": 219520,
+        "failures": 30,
+        "mean_raw_environment_return": 143.77851814744486,
+        "observed_success_fraction": 0.68,
+        "success_fraction_bounds": [
+          0.68,
+          0.7
+        ],
+        "successes": 68
+      },
+      "original_results_sha256": "3eb4574b63830285b7d70f99309aa80096b242c75fb43365788e5cf5b6da0ce9",
+      "replay_updates": 132728524,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 165804399,
+      "checkpoint_sha256": "7e252efa01206d6bc8aa13bc24d8e8498b73e82f1d4c9e929be1e200c612f109",
+      "completed_epochs": 160,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 174505,
+        "failures": 32,
+        "mean_raw_environment_return": 132.0272685723166,
+        "observed_success_fraction": 0.67,
+        "success_fraction_bounds": [
+          0.67,
+          0.68
+        ],
+        "successes": 67
+      },
+      "original_results_sha256": "99e344aaa760845c2a4146af0e45dffcaaf2ecc923ff2bedd82840a6d7baed96",
+      "replay_updates": 165761270,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 198794401,
+      "checkpoint_sha256": "460c1e59bfb22f97185cfa9f5065cbb7c4d8ff3010c0618bd384696a0020d600",
+      "completed_epochs": 192,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 32650,
+        "failures": 32,
+        "mean_raw_environment_return": 160.55699112182447,
+        "observed_success_fraction": 0.68,
+        "success_fraction_bounds": [
+          0.68,
+          0.68
+        ],
+        "successes": 68
+      },
+      "original_results_sha256": "0e21774d126b3497ae4323f09592946e40a062307be20dd816c969160e35eec9",
+      "replay_updates": 198751272,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 231748235,
+      "checkpoint_sha256": "d86d0c16118bacdd9dd01cc45dbd07f91d271e680e45bc33b2668b0c25fb50a4",
+      "completed_epochs": 224,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 2,
+        "episodes": 100,
+        "evaluation_steps": 220061,
+        "failures": 39,
+        "mean_raw_environment_return": 114.4904690213444,
+        "observed_success_fraction": 0.59,
+        "success_fraction_bounds": [
+          0.59,
+          0.61
+        ],
+        "successes": 59
+      },
+      "original_results_sha256": "0c1cdde4a1d212a0756d5bc626b15e4c54c703a768c6ce2ac338e20c81a26be8",
+      "replay_updates": 231705106,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 264683681,
+      "checkpoint_sha256": "f3bc41c50cbae679338db211723efbde9e4f2648278edd510c9729bd6ef1df2f",
+      "completed_epochs": 256,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 121132,
+        "failures": 27,
+        "mean_raw_environment_return": 157.42013186515587,
+        "observed_success_fraction": 0.72,
+        "success_fraction_bounds": [
+          0.72,
+          0.73
+        ],
+        "successes": 72
+      },
+      "original_results_sha256": "9a787d33513e681c47079409efa8bd9a9a5d1a15c1183e3d95b54bc991c0ef5e",
+      "replay_updates": 264640552,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 272916499,
+      "checkpoint_sha256": "f88d6c175130af61e05d030ca4cd7b67d45da0b1e72882ddb85ceb02471d15eb",
+      "completed_epochs": 264,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 22430,
+        "failures": 35,
+        "mean_raw_environment_return": 133.22300398534296,
+        "observed_success_fraction": 0.65,
+        "success_fraction_bounds": [
+          0.65,
+          0.65
+        ],
+        "successes": 65
+      },
+      "original_results_sha256": "26d7f70f4cb54edc2491546afd9c5d2c0047d43efdda3dd53195ec4cf75d7b7c",
+      "replay_updates": 272873370,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 32834561,
+      "checkpoint_sha256": "e8fd8ef47d01f85b6657c020110926c04fd7893c2088d23c5ef06500fc5b6b33",
+      "completed_epochs": 32,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 23101,
+        "failures": 72,
+        "mean_raw_environment_return": -47.74604512554916,
+        "observed_success_fraction": 0.28,
+        "success_fraction_bounds": [
+          0.28,
+          0.28
+        ],
+        "successes": 28
+      },
+      "original_results_sha256": "d414597019c9aee66e4bd1bd96ea0340e850c361a364bba4b9d1c390e516d69d",
+      "replay_updates": 32834561,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 66210483,
+      "checkpoint_sha256": "ddc7cc383087db66ae958eabfe11b6ceee407a45cf1ea29515e2da1d35320a5e",
+      "completed_epochs": 64,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 23133,
+        "failures": 53,
+        "mean_raw_environment_return": 54.15737841231711,
+        "observed_success_fraction": 0.47,
+        "success_fraction_bounds": [
+          0.47,
+          0.47
+        ],
+        "successes": 47
+      },
+      "original_results_sha256": "72a2145f3e1e008a8afaf05b87e80ad536da966609e2f5053154da6e0f6d911f",
+      "replay_updates": 66190285,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 99319132,
+      "checkpoint_sha256": "6ad41990acb4e2a0b5fde5534761ee0c21b3eb8ace6788876bfaaf7de7c5d3d0",
+      "completed_epochs": 96,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 123622,
+        "failures": 44,
+        "mean_raw_environment_return": 64.0832260221237,
+        "observed_success_fraction": 0.55,
+        "success_fraction_bounds": [
+          0.55,
+          0.56
+        ],
+        "successes": 55
+      },
+      "original_results_sha256": "096dfa63320635d5fd20614b2a15f78111f750b5810f95a58e5468d158b6654a",
+      "replay_updates": 99298934,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 132303346,
+      "checkpoint_sha256": "894cb21a83788283436f40feb95235abec7e97ef1c9a77ea284f235a8e9d45aa",
+      "completed_epochs": 128,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 125559,
+        "failures": 44,
+        "mean_raw_environment_return": 61.1212066959746,
+        "observed_success_fraction": 0.55,
+        "success_fraction_bounds": [
+          0.55,
+          0.56
+        ],
+        "successes": 55
+      },
+      "original_results_sha256": "9cdf30419517f7a114066b3245372fabdaeba2230c2b4059e6cb5dcae6fc46e2",
+      "replay_updates": 132283148,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 165300366,
+      "checkpoint_sha256": "66d0571e625271d5520fdffbe21334757aefbc56bdbd4398f396ba0248cf90cc",
+      "completed_epochs": 160,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 127026,
+        "failures": 35,
+        "mean_raw_environment_return": 88.0449210889078,
+        "observed_success_fraction": 0.64,
+        "success_fraction_bounds": [
+          0.64,
+          0.65
+        ],
+        "successes": 64
+      },
+      "original_results_sha256": "a75a907f4d9573161f6a983865508de57d065707fea70da89d3afe55bb5d83a7",
+      "replay_updates": 165280168,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 198277381,
+      "checkpoint_sha256": "ba234612f1ff03d2f11aab0a4139389421219a5ced60595f6228d95fd63b8a69",
+      "completed_epochs": 192,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 126979,
+        "failures": 33,
+        "mean_raw_environment_return": 99.45498723090621,
+        "observed_success_fraction": 0.66,
+        "success_fraction_bounds": [
+          0.66,
+          0.67
+        ],
+        "successes": 66
+      },
+      "original_results_sha256": "5f440c43da4b8d7e13871bf15f13817b215421d6b566e6f19f0f123543763b99",
+      "replay_updates": 198257183,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 231281732,
+      "checkpoint_sha256": "648e2033f8ff5e4293f0c7f505adc6b639b4133b733614a8e2912158814d556c",
+      "completed_epochs": 224,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 127653,
+        "failures": 30,
+        "mean_raw_environment_return": 112.24190405717601,
+        "observed_success_fraction": 0.69,
+        "success_fraction_bounds": [
+          0.69,
+          0.7
+        ],
+        "successes": 69
+      },
+      "original_results_sha256": "6826711aa7a40b8449a531e59e658d064d4dbc742c1b0f4274943bf82b2692e9",
+      "replay_updates": 231261534,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 264308459,
+      "checkpoint_sha256": "27883b93cc11226a1ff7b055c61db8c612c81589f6d3facf235767e3dcb96f59",
+      "completed_epochs": 256,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 125351,
+        "failures": 37,
+        "mean_raw_environment_return": 84.15418334990584,
+        "observed_success_fraction": 0.62,
+        "success_fraction_bounds": [
+          0.62,
+          0.63
+        ],
+        "successes": 62
+      },
+      "original_results_sha256": "667e41e9d4bec7861cafca71de1e45b62cc03bc95e776de89904cc09222d1d48",
+      "replay_updates": 264288261,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 272569079,
+      "checkpoint_sha256": "f7f524b5d751b63163e309ed64de4d60723392f3cc8acae72db72ae3aaeb8824",
+      "completed_epochs": 264,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 125665,
+        "failures": 34,
+        "mean_raw_environment_return": 95.64680125218678,
+        "observed_success_fraction": 0.65,
+        "success_fraction_bounds": [
+          0.65,
+          0.66
+        ],
+        "successes": 65
+      },
+      "original_results_sha256": "7bcf8593be36706870719775e5cbeb6ba7c41a0e431a967677a4801e95125f46",
+      "replay_updates": 272548881,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 32941482,
+      "checkpoint_sha256": "7b7dd58559474a05065571620e85bba745694ee603d71dae2a6fa94363b16111",
+      "completed_epochs": 32,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 23539,
+        "failures": 72,
+        "mean_raw_environment_return": -70.04899185141218,
+        "observed_success_fraction": 0.28,
+        "success_fraction_bounds": [
+          0.28,
+          0.28
+        ],
+        "successes": 28
+      },
+      "original_results_sha256": "68cf9ed8bb1d836a3380a4bc07c1380719631c2fdab551a9c7e65b81694fb734",
+      "replay_updates": 32941482,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 66529039,
+      "checkpoint_sha256": "66cdefd77c09748f8a99048e42c2731681e8bdb9f7cb4afd676acda46bdf648a",
+      "completed_epochs": 64,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 18039,
+        "failures": 80,
+        "mean_raw_environment_return": -45.30609896262125,
+        "observed_success_fraction": 0.2,
+        "success_fraction_bounds": [
+          0.2,
+          0.2
+        ],
+        "successes": 20
+      },
+      "original_results_sha256": "c14c0192024aa550f14785a145170f5a5a40da481e06285aa3249b981a023d02",
+      "replay_updates": 66516622,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 100054131,
+      "checkpoint_sha256": "72ee9862908a84ba2934ade2a0b0354f5239b0e26f6d1af0b328c329cec86d33",
+      "completed_epochs": 96,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 26968,
+        "failures": 37,
+        "mean_raw_environment_return": 130.16643969328143,
+        "observed_success_fraction": 0.63,
+        "success_fraction_bounds": [
+          0.63,
+          0.63
+        ],
+        "successes": 63
+      },
+      "original_results_sha256": "64c2156bf9d44b37044fcd52906ffe7c824efafb4eb0066451c81c4e42898758",
+      "replay_updates": 100003411,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 133047640,
+      "checkpoint_sha256": "d875e75c1ca70604d21cc089d2edb8a27bef5123108d477507ccd181e8de1d51",
+      "completed_epochs": 128,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 25708,
+        "failures": 38,
+        "mean_raw_environment_return": 109.67671648825437,
+        "observed_success_fraction": 0.62,
+        "success_fraction_bounds": [
+          0.62,
+          0.62
+        ],
+        "successes": 62
+      },
+      "original_results_sha256": "cf665b79c17389832683921576e801ae706668e09f05dfe8d2fa581e6bee42c6",
+      "replay_updates": 132996920,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 165939478,
+      "checkpoint_sha256": "43c97b277479f0c3fc5959413dc3a65f63e4e1a3ccec3d5cba4d33b8c4b008df",
+      "completed_epochs": 160,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 127056,
+        "failures": 34,
+        "mean_raw_environment_return": 119.18622475041525,
+        "observed_success_fraction": 0.65,
+        "success_fraction_bounds": [
+          0.65,
+          0.66
+        ],
+        "successes": 65
+      },
+      "original_results_sha256": "78fb10802129104c673e2dfbc5709a67f41ea154d18957aa3958f9fc18850a42",
+      "replay_updates": 165888758,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 198933293,
+      "checkpoint_sha256": "658083edb82b1d6e35e3f27919ced9d76a99db657dd7261419a96d4851b84938",
+      "completed_epochs": 192,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 49237,
+        "failures": 27,
+        "mean_raw_environment_return": 145.01065920812925,
+        "observed_success_fraction": 0.73,
+        "success_fraction_bounds": [
+          0.73,
+          0.73
+        ],
+        "successes": 73
+      },
+      "original_results_sha256": "be01ab078d346cbaf025027da41dd95cadb3512c6116c6c35f173a2d96439f69",
+      "replay_updates": 198882573,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 235090736,
+      "checkpoint_sha256": "cec4b98ab5686266b099add23164059af40c714e27fb0fcdbaabe88d414f98fc",
+      "completed_epochs": 224,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 25802,
+        "failures": 27,
+        "mean_raw_environment_return": 166.05202434382073,
+        "observed_success_fraction": 0.73,
+        "success_fraction_bounds": [
+          0.73,
+          0.73
+        ],
+        "successes": 73
+      },
+      "original_results_sha256": "9cd01af494cdd6a8a7924d9785a9d8a6350325d20064be5ed2611870cd64064a",
+      "replay_updates": 231873355,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 267999579,
+      "checkpoint_sha256": "84c5ccb474686179b5416912aa7b8dba6904afd285311624eb9554ee9f6699ff",
+      "completed_epochs": 256,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 25785,
+        "failures": 27,
+        "mean_raw_environment_return": 164.1143484901377,
+        "observed_success_fraction": 0.73,
+        "success_fraction_bounds": [
+          0.73,
+          0.73
+        ],
+        "successes": 73
+      },
+      "original_results_sha256": "2c21f7c8a8550b08837f9a667b0d7a63677aacaf450cf7b5158fca2c913201d4",
+      "replay_updates": 264782198,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 276235848,
+      "checkpoint_sha256": "b21d2779becf8769d04e87bce8d32ccbd49ebf6c0b1388fbea369ceb9a32847c",
+      "completed_epochs": 264,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 78792,
+        "failures": 28,
+        "mean_raw_environment_return": 150.15583354157306,
+        "observed_success_fraction": 0.72,
+        "success_fraction_bounds": [
+          0.72,
+          0.72
+        ],
+        "successes": 72
+      },
+      "original_results_sha256": "aecb0c5ddc93bab90b38ab45fbde42edac2411621fe7274d52e989f109b477d5",
+      "replay_updates": 273018467,
+      "training_seed": 101
+    },
+    {
+      "actual_training_steps": 33028697,
+      "checkpoint_sha256": "ac41c3f62967fa9ecf1a2e0672c6d35d57d58c5b7c74de63be6f7873915f80ed",
+      "completed_epochs": 32,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 60269,
+        "failures": 52,
+        "mean_raw_environment_return": 66.033541205235,
+        "observed_success_fraction": 0.48,
+        "success_fraction_bounds": [
+          0.48,
+          0.48
+        ],
+        "successes": 48
+      },
+      "original_results_sha256": "1def96a5e731268e9bc5552dc7d9383371df21d26b485b86f37147187c912e3c",
+      "replay_updates": 33028697,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 66262092,
+      "checkpoint_sha256": "73f4908d380097605d83f502fcd1330bfd505763fe4401120308e9a2387fdfdd",
+      "completed_epochs": 64,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 22863,
+        "failures": 31,
+        "mean_raw_environment_return": 144.25269605065068,
+        "observed_success_fraction": 0.69,
+        "success_fraction_bounds": [
+          0.69,
+          0.69
+        ],
+        "successes": 69
+      },
+      "original_results_sha256": "a89ea0bc757df39a20cb39f83fa2e48cb2983f664c8c1e0d284a1437e0b0078e",
+      "replay_updates": 66261660,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 99343092,
+      "checkpoint_sha256": "54bd7a91454240b87fa19adc5c49584213d5328c88b2efd31f6baabbf1e9d04f",
+      "completed_epochs": 96,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 23338,
+        "failures": 35,
+        "mean_raw_environment_return": 125.51789104101485,
+        "observed_success_fraction": 0.65,
+        "success_fraction_bounds": [
+          0.65,
+          0.65
+        ],
+        "successes": 65
+      },
+      "original_results_sha256": "682770e35c6f208f42cc116826519e9313c7feb93b978be2ec5fa75722c0eee1",
+      "replay_updates": 99342660,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 132361748,
+      "checkpoint_sha256": "4724aa4e263d395b0e35c298e85d94bb16d0c9d52d74cb514fda5168e3f741c6",
+      "completed_epochs": 128,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 24552,
+        "failures": 35,
+        "mean_raw_environment_return": 120.47060803434599,
+        "observed_success_fraction": 0.65,
+        "success_fraction_bounds": [
+          0.65,
+          0.65
+        ],
+        "successes": 65
+      },
+      "original_results_sha256": "705a940918ed7c57d5f77e4dca0d5bc292969dc1a05f575b34a66a83609474b2",
+      "replay_updates": 132361316,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 165367585,
+      "checkpoint_sha256": "7f668eeca3ec878e9ef1e1b039188ef551fbd4e3b3192165b9fe8599fb8b84a8",
+      "completed_epochs": 160,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 121904,
+        "failures": 31,
+        "mean_raw_environment_return": 126.69277459637229,
+        "observed_success_fraction": 0.68,
+        "success_fraction_bounds": [
+          0.68,
+          0.69
+        ],
+        "successes": 68
+      },
+      "original_results_sha256": "b470d0f1d52f694ff24a9efa37f1dfd9a724dd3aa9e36de494301b67a2540135",
+      "replay_updates": 165367153,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 198366599,
+      "checkpoint_sha256": "276a7af8d220bdcc58ca22e08d3a1047facb51c7c3c250b3b2e16de5c713ba05",
+      "completed_epochs": 192,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 61719,
+        "failures": 26,
+        "mean_raw_environment_return": 152.3921659011959,
+        "observed_success_fraction": 0.74,
+        "success_fraction_bounds": [
+          0.74,
+          0.74
+        ],
+        "successes": 74
+      },
+      "original_results_sha256": "66db8d83c3490d8032b48d0a71a1bfa4a5669ebe352d2440ab8ddfe49b40ea9a",
+      "replay_updates": 198366167,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 231354546,
+      "checkpoint_sha256": "ed164c01215350ee5380d342826da1578a4b404d2e0b9c9eecc1d9656960f63b",
+      "completed_epochs": 224,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 123166,
+        "failures": 33,
+        "mean_raw_environment_return": 125.85620942944327,
+        "observed_success_fraction": 0.66,
+        "success_fraction_bounds": [
+          0.66,
+          0.67
+        ],
+        "successes": 66
+      },
+      "original_results_sha256": "572180603e8fa2b5ecca35be84712f40b2b9e49b3463405abfd117061c079e8d",
+      "replay_updates": 231354114,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 264368075,
+      "checkpoint_sha256": "c56661fca2d23d16621055e90c3f8f8a8d2f821a0d1b669580ec951f18422b75",
+      "completed_epochs": 256,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 125239,
+        "failures": 23,
+        "mean_raw_environment_return": 148.90623860109372,
+        "observed_success_fraction": 0.76,
+        "success_fraction_bounds": [
+          0.76,
+          0.77
+        ],
+        "successes": 76
+      },
+      "original_results_sha256": "b144ab93e0c3ce50e51231a7b9f223815aaa601fa52fd4ab95e241d411083643",
+      "replay_updates": 264367643,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 272592883,
+      "checkpoint_sha256": "ee0cdbb62a572ed9f4c2bd9b52adffa26390531900c9439c1bc1dc4d73562e63",
+      "completed_epochs": 264,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 26674,
+        "failures": 30,
+        "mean_raw_environment_return": 144.49877285470163,
+        "observed_success_fraction": 0.7,
+        "success_fraction_bounds": [
+          0.7,
+          0.7
+        ],
+        "successes": 70
+      },
+      "original_results_sha256": "863b6e5a053bda0c356cecfedc9bbb9dad00cb6c93fabb95c1dcbdb5acda9f63",
+      "replay_updates": 272592451,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 32811685,
+      "checkpoint_sha256": "69f875cf6b54955b12e78ff1707722ae8f90308b1494fe3b7f243d9334051c3d",
+      "completed_epochs": 32,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 24046,
+        "failures": 99,
+        "mean_raw_environment_return": -387.6546623873991,
+        "observed_success_fraction": 0.01,
+        "success_fraction_bounds": [
+          0.01,
+          0.01
+        ],
+        "successes": 1
+      },
+      "original_results_sha256": "ca26a0626f3628aadb98a739ff2d845086355f4f2237ce0919a09a0fddde9dc0",
+      "replay_updates": 32811685,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 65628999,
+      "checkpoint_sha256": "de0870d97a6f4d445743bf15792000e5e3213e6df52b6d1eb46a8cdddd8788f1",
+      "completed_epochs": 64,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 19897,
+        "failures": 96,
+        "mean_raw_environment_return": -274.9677164952838,
+        "observed_success_fraction": 0.04,
+        "success_fraction_bounds": [
+          0.04,
+          0.04
+        ],
+        "successes": 4
+      },
+      "original_results_sha256": "75a3a4311a9bd20b706a86347a57f5e586268334550478511c9172ac9aa9ab0d",
+      "replay_updates": 65628999,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 98491773,
+      "checkpoint_sha256": "13bb986989e2bb66202c88fabf663a4a69b25dde2ccede8b49b3c7810b4c2a5b",
+      "completed_epochs": 96,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 122810,
+        "failures": 69,
+        "mean_raw_environment_return": -72.11774311678904,
+        "observed_success_fraction": 0.3,
+        "success_fraction_bounds": [
+          0.3,
+          0.31
+        ],
+        "successes": 30
+      },
+      "original_results_sha256": "25d6b5b6faf54d3c17b182eca400bd4832a5678b095c9ac9fda9ee74e0ab9a73",
+      "replay_updates": 98491773,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 131525828,
+      "checkpoint_sha256": "fef32ffb72994f51bfbd1c7e249899682064dd63f681bbb0d9b7e35a58a70a42",
+      "completed_epochs": 128,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 124405,
+        "failures": 60,
+        "mean_raw_environment_return": -19.692730168554988,
+        "observed_success_fraction": 0.39,
+        "success_fraction_bounds": [
+          0.39,
+          0.4
+        ],
+        "successes": 39
+      },
+      "original_results_sha256": "c63b42ad572442052f2c000f7e4a2187d626ac053ba871664b65fa761940f051",
+      "replay_updates": 131521814,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 168736715,
+      "checkpoint_sha256": "2c4abebe9a4f96ef2a801923503b0ce8b833b991795b042d31360d014ccc1c10",
+      "completed_epochs": 160,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 124196,
+        "failures": 57,
+        "mean_raw_environment_return": 10.534869858838409,
+        "observed_success_fraction": 0.42,
+        "success_fraction_bounds": [
+          0.42,
+          0.43
+        ],
+        "successes": 42
+      },
+      "original_results_sha256": "f832f57b20f1a1e886f2f452438074a0375e3bb354b305a82cb287942c47df3f",
+      "replay_updates": 164512705,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 201753820,
+      "checkpoint_sha256": "27082a2ae996245587e6c99b01eaab22e8fbcf7cef395d45d11f09c5ff6b5695",
+      "completed_epochs": 192,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 125424,
+        "failures": 45,
+        "mean_raw_environment_return": 58.39467396869384,
+        "observed_success_fraction": 0.54,
+        "success_fraction_bounds": [
+          0.54,
+          0.55
+        ],
+        "successes": 54
+      },
+      "original_results_sha256": "43627a5a6dcb86293fc9286fc18efba238cacb4ca04d7c684f0b33a8d932263a",
+      "replay_updates": 197529810,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 234884624,
+      "checkpoint_sha256": "950d068c70455193c093462ac43f6c9443f0311e067922f297b589d9258c3cb3",
+      "completed_epochs": 224,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 126557,
+        "failures": 46,
+        "mean_raw_environment_return": 48.83288515008229,
+        "observed_success_fraction": 0.53,
+        "success_fraction_bounds": [
+          0.53,
+          0.54
+        ],
+        "successes": 53
+      },
+      "original_results_sha256": "8963a99cd836262ca07f67e7d080729a71aa02befbebecadd50cad892931ee12",
+      "replay_updates": 230622380,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 267917041,
+      "checkpoint_sha256": "898af6155248434a4bd9ccdb5e78ecd0868272ea3e6c58c4c0850d9b6a85a6c2",
+      "completed_epochs": 256,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 84629,
+        "failures": 51,
+        "mean_raw_environment_return": 28.150551628105607,
+        "observed_success_fraction": 0.49,
+        "success_fraction_bounds": [
+          0.49,
+          0.49
+        ],
+        "successes": 49
+      },
+      "original_results_sha256": "b77bd99c489d10a0055b80844b7ba78879edf5421719526c5e01a64c237501eb",
+      "replay_updates": 263618711,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 276141939,
+      "checkpoint_sha256": "0ed971cc907ac195ae4273c1e36ef6a038d6c317794dc45fc245bec256925e4a",
+      "completed_epochs": 264,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 84388,
+        "failures": 50,
+        "mean_raw_environment_return": 30.38823788185658,
+        "observed_success_fraction": 0.5,
+        "success_fraction_bounds": [
+          0.5,
+          0.5
+        ],
+        "successes": 50
+      },
+      "original_results_sha256": "51fb1852ae4d816f2318c4235ef1544a78faeae31443d631af3c741046660fb4",
+      "replay_updates": 271843609,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 33449951,
+      "checkpoint_sha256": "1ab29d1088aff439db73e3725faebd20346459d454db3f12f87ff0ec0bfa6e7e",
+      "completed_epochs": 32,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 2,
+        "episodes": 100,
+        "evaluation_steps": 223095,
+        "failures": 65,
+        "mean_raw_environment_return": -17.842120429880996,
+        "observed_success_fraction": 0.33,
+        "success_fraction_bounds": [
+          0.33,
+          0.35
+        ],
+        "successes": 33
+      },
+      "original_results_sha256": "ebb9e2eb666d428f762962093db353ff32c9053b20b8c378f8398f28f81e1832",
+      "replay_updates": 33442454,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 66982928,
+      "checkpoint_sha256": "c9d1e57db42a541ad47ad4ca0fb09028b029be20c42a610e9b5ae036401fd169",
+      "completed_epochs": 64,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 23980,
+        "failures": 69,
+        "mean_raw_environment_return": 11.393172908775163,
+        "observed_success_fraction": 0.31,
+        "success_fraction_bounds": [
+          0.31,
+          0.31
+        ],
+        "successes": 31
+      },
+      "original_results_sha256": "7c5bd8d163564964b3b0fec4249d62a38519f95544b81fd8b5532570de1c05b0",
+      "replay_updates": 66971682,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 100456715,
+      "checkpoint_sha256": "47f760bcc5cc6d8f89816ce88b89d6eee663897960a717cb929cf985fcb41ff6",
+      "completed_epochs": 96,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 25387,
+        "failures": 45,
+        "mean_raw_environment_return": 77.12274706115423,
+        "observed_success_fraction": 0.55,
+        "success_fraction_bounds": [
+          0.55,
+          0.55
+        ],
+        "successes": 55
+      },
+      "original_results_sha256": "58b520ce22f275686e70f0d9aec033db58180ecefbef74fa71f986835a28e551",
+      "replay_updates": 100435723,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 133569094,
+      "checkpoint_sha256": "1dc340f822a5b4340edf30670b9475a6e7c602a5e1159dc19845d33ebf3a7bf1",
+      "completed_epochs": 128,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 29352,
+        "failures": 27,
+        "mean_raw_environment_return": 155.883999602022,
+        "observed_success_fraction": 0.73,
+        "success_fraction_bounds": [
+          0.73,
+          0.73
+        ],
+        "successes": 73
+      },
+      "original_results_sha256": "9757254d96a902b452f0097b2c43bff3f465388fab68d079df755cbaad72b0b6",
+      "replay_updates": 133548102,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 166705626,
+      "checkpoint_sha256": "f7020adf1b9d8590eb2ae56f2543bee828b15e06c523d626708961f34700a853",
+      "completed_epochs": 160,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 124759,
+        "failures": 31,
+        "mean_raw_environment_return": 132.6753733862329,
+        "observed_success_fraction": 0.68,
+        "success_fraction_bounds": [
+          0.68,
+          0.69
+        ],
+        "successes": 68
+      },
+      "original_results_sha256": "4c6b0e732e0ab02c7721e6b925343368b6db27095564ba2adef21500c169061a",
+      "replay_updates": 166684634,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 204727108,
+      "checkpoint_sha256": "59e6d157a8bc4c46750dde39213f2a3affde1e665380880e7ad90b3c3ce8ed77",
+      "completed_epochs": 192,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 144264,
+        "failures": 24,
+        "mean_raw_environment_return": 151.17521681060737,
+        "observed_success_fraction": 0.76,
+        "success_fraction_bounds": [
+          0.76,
+          0.76
+        ],
+        "successes": 76
+      },
+      "original_results_sha256": "3cde6087912e3c0b5468e9a8613351693963b465fcd71772426d3b0a0dead61d",
+      "replay_updates": 199819843,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 238762419,
+      "checkpoint_sha256": "2ce7547237facf55763979c0850c219cfc5542cb5f11796e4bc79f5a48b42dd3",
+      "completed_epochs": 224,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 26784,
+        "failures": 29,
+        "mean_raw_environment_return": 149.00445737096555,
+        "observed_success_fraction": 0.71,
+        "success_fraction_bounds": [
+          0.71,
+          0.71
+        ],
+        "successes": 71
+      },
+      "original_results_sha256": "27cc8a4c8ffe3e3514d70fb977a110b80a3d698b26aef42d85c442c425fc63d2",
+      "replay_updates": 232926078,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 272182914,
+      "checkpoint_sha256": "d8bec72d4f35d8a724dd58b059db31ad833e47140d53b2ff82e143f781555a26",
+      "completed_epochs": 256,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 103012,
+        "failures": 34,
+        "mean_raw_environment_return": 145.92008116276176,
+        "observed_success_fraction": 0.66,
+        "success_fraction_bounds": [
+          0.66,
+          0.66
+        ],
+        "successes": 66
+      },
+      "original_results_sha256": "bf6b3c28363ac3d914989837ae402351fc43509c2ed17a23c71a421691ada444",
+      "replay_updates": 266080672,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 284208581,
+      "checkpoint_sha256": "dfdcf78a2f88b14d6e024c1bf58f5206427c8522fcad6f67de7f30d8ba5845d9",
+      "completed_epochs": 264,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 39454,
+        "failures": 19,
+        "mean_raw_environment_return": 192.55551239104562,
+        "observed_success_fraction": 0.81,
+        "success_fraction_bounds": [
+          0.81,
+          0.81
+        ],
+        "successes": 81
+      },
+      "original_results_sha256": "022017ff96e78f9b73fd23a2cb3f7beb4bcb21300cbdaac083277c2cf9050531",
+      "replay_updates": 274385299,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 33226838,
+      "checkpoint_sha256": "a803b42d01b4bdb5f665deb006579f927aca3c7d2d48157d54dcb0e19bfd51f2",
+      "completed_epochs": 32,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 80692,
+        "failures": 40,
+        "mean_raw_environment_return": 114.25015593147285,
+        "observed_success_fraction": 0.6,
+        "success_fraction_bounds": [
+          0.6,
+          0.6
+        ],
+        "successes": 60
+      },
+      "original_results_sha256": "973f3ec5c5b5c79d97eff1d43ed688e089e0999f662f6633587e4bd136be006c",
+      "replay_updates": 33199687,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 66730199,
+      "checkpoint_sha256": "cb19e12818ef25a7c8c8c1151efc0c9452f7028b2b09605a096827a6be461b71",
+      "completed_epochs": 64,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 58656,
+        "failures": 37,
+        "mean_raw_environment_return": 124.60358305342663,
+        "observed_success_fraction": 0.63,
+        "success_fraction_bounds": [
+          0.63,
+          0.63
+        ],
+        "successes": 63
+      },
+      "original_results_sha256": "b2228566aaa88b60aff71622a1fb833b92af8ae992259c81e35d0f642a89562c",
+      "replay_updates": 66702236,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 100042637,
+      "checkpoint_sha256": "130a4a39a33ae166637a4b7ab68626b995244576693537aed45bd43eb614b245",
+      "completed_epochs": 96,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 20273,
+        "failures": 32,
+        "mean_raw_environment_return": 147.66099514026607,
+        "observed_success_fraction": 0.68,
+        "success_fraction_bounds": [
+          0.68,
+          0.68
+        ],
+        "successes": 68
+      },
+      "original_results_sha256": "f0b384e8cd968563f54b80b692845ac4fed500503f7fc64fa3be5c9519b11b9b",
+      "replay_updates": 100010556,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 133098865,
+      "checkpoint_sha256": "ae52fc16ecc4bfe2ca63cb31c3cfe4b5b3d007d1ca02d8dfa429a11c9d3373bc",
+      "completed_epochs": 128,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 181391,
+        "failures": 21,
+        "mean_raw_environment_return": 133.41246569633824,
+        "observed_success_fraction": 0.78,
+        "success_fraction_bounds": [
+          0.78,
+          0.79
+        ],
+        "successes": 78
+      },
+      "original_results_sha256": "54291fe8e50e364645cb69478f5e9320d524fe014e026f7ec47d050261d7210e",
+      "replay_updates": 133066784,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 166081193,
+      "checkpoint_sha256": "b4da318b60175cd379573d53218020b90f09c34460e5d0dea0d21b1d90993483",
+      "completed_epochs": 160,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 122696,
+        "failures": 16,
+        "mean_raw_environment_return": 183.33582325746528,
+        "observed_success_fraction": 0.83,
+        "success_fraction_bounds": [
+          0.83,
+          0.84
+        ],
+        "successes": 83
+      },
+      "original_results_sha256": "e2269a991a9cb76b4d5cec4b3108df10f547b46258e2e6259f75187128157b73",
+      "replay_updates": 166049112,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 199071904,
+      "checkpoint_sha256": "112059bda561a31d1dc8c477c62b6d020242c22dc09249a9984f82b1884137a8",
+      "completed_epochs": 192,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 22518,
+        "failures": 23,
+        "mean_raw_environment_return": 187.63824479433288,
+        "observed_success_fraction": 0.77,
+        "success_fraction_bounds": [
+          0.77,
+          0.77
+        ],
+        "successes": 77
+      },
+      "original_results_sha256": "c952b587702732f4692e92bf3ffe02af254e0d420ae720bd48c062c5271ece00",
+      "replay_updates": 199039823,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 232148057,
+      "checkpoint_sha256": "90c581ca4f783a42004f6c0004320f6d87e3cfa5c5d8914585dc359d2a3f84a0",
+      "completed_epochs": 224,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 25557,
+        "failures": 19,
+        "mean_raw_environment_return": 181.09480053159112,
+        "observed_success_fraction": 0.81,
+        "success_fraction_bounds": [
+          0.81,
+          0.81
+        ],
+        "successes": 81
+      },
+      "original_results_sha256": "9741da3b3fa5dca56fb3cbb922321baca311b3e7955c34fda864692e64e06ec4",
+      "replay_updates": 232115976,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 265220670,
+      "checkpoint_sha256": "c166ff6a0a64851fa872b4087180d24ea05120206c850f55bebcbf724190aeb5",
+      "completed_epochs": 256,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 124155,
+        "failures": 18,
+        "mean_raw_environment_return": 175.40680131347978,
+        "observed_success_fraction": 0.81,
+        "success_fraction_bounds": [
+          0.81,
+          0.82
+        ],
+        "successes": 81
+      },
+      "original_results_sha256": "e45846f3418fdb23af01cbe94ae96942dfe6ff3920b0b03098affd0b89d7ff13",
+      "replay_updates": 265188589,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 273520923,
+      "checkpoint_sha256": "f6b08f280669198afd1b75d540236f96fe3ea420d0105c5e603d27047a6cbf7a",
+      "completed_epochs": 264,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 25649,
+        "failures": 13,
+        "mean_raw_environment_return": 202.25952756309553,
+        "observed_success_fraction": 0.87,
+        "success_fraction_bounds": [
+          0.87,
+          0.87
+        ],
+        "successes": 87
+      },
+      "original_results_sha256": "7d609be7841009df8b85c773b11f0eb01982bbaa9f0e5242732eb46a866eb891",
+      "replay_updates": 273488842,
+      "training_seed": 102
+    },
+    {
+      "actual_training_steps": 33018497,
+      "checkpoint_sha256": "207e561fea0475d1cb7f2e1170403e972cb5645a16e11934042cc3592feb5013",
+      "completed_epochs": 32,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 14871,
+        "failures": 86,
+        "mean_raw_environment_return": -27.11355946937802,
+        "observed_success_fraction": 0.14,
+        "success_fraction_bounds": [
+          0.14,
+          0.14
+        ],
+        "successes": 14
+      },
+      "original_results_sha256": "670fd7cd3b719d55c374c980d909541f496d92e4c5a428ed6e921f911fa33e98",
+      "replay_updates": 33006463,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 66481947,
+      "checkpoint_sha256": "68d138d79ad76ef1b5d4ad48d390beded908b0fdb00cfd8f351deb39d864a562",
+      "completed_epochs": 64,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 22146,
+        "failures": 39,
+        "mean_raw_environment_return": 64.12822812747957,
+        "observed_success_fraction": 0.61,
+        "success_fraction_bounds": [
+          0.61,
+          0.61
+        ],
+        "successes": 61
+      },
+      "original_results_sha256": "e209c87bc873db0ff2bc36108791550feb94ae3e236f9960322fba7a7018c818",
+      "replay_updates": 66439946,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 99979340,
+      "checkpoint_sha256": "b34fe265820585ee8bebda2ea10298c8ccc5b8f8d277474b93676e21a2b6d7b8",
+      "completed_epochs": 96,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 119566,
+        "failures": 42,
+        "mean_raw_environment_return": 87.04938985044619,
+        "observed_success_fraction": 0.57,
+        "success_fraction_bounds": [
+          0.57,
+          0.58
+        ],
+        "successes": 57
+      },
+      "original_results_sha256": "dba50d3367efcf1e38823e034ddc6053cc192581cb349ea8fe2ff10b7c2bbd7e",
+      "replay_updates": 99930772,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 133086059,
+      "checkpoint_sha256": "9da917d6ce0c49c2cebf8f6b0f58683876c766cbd411fff75e32ad224a6dd053",
+      "completed_epochs": 128,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 57049,
+        "failures": 34,
+        "mean_raw_environment_return": 117.61114423100975,
+        "observed_success_fraction": 0.66,
+        "success_fraction_bounds": [
+          0.66,
+          0.66
+        ],
+        "successes": 66
+      },
+      "original_results_sha256": "f5d1c2aee1a6618f092faf79d079d491a5570260794dcd2e6c5377b48f983dfe",
+      "replay_updates": 133037491,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 166147777,
+      "checkpoint_sha256": "15be42fc649d9f28a281cb25b0106e5426de5aa3b1f7c2ae9fac525061bd4876",
+      "completed_epochs": 160,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 21741,
+        "failures": 35,
+        "mean_raw_environment_return": 126.95006511686964,
+        "observed_success_fraction": 0.65,
+        "success_fraction_bounds": [
+          0.65,
+          0.65
+        ],
+        "successes": 65
+      },
+      "original_results_sha256": "556e57989de2cadbc9a2c3603ad46ace4383bdbcb88ed81ac2f67d1203b7c170",
+      "replay_updates": 166099209,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 199199976,
+      "checkpoint_sha256": "90273c948b596f746467a9e2646f01377453b929eecea4efddc757ee5b9a4279",
+      "completed_epochs": 192,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 57771,
+        "failures": 34,
+        "mean_raw_environment_return": 109.19661662823562,
+        "observed_success_fraction": 0.66,
+        "success_fraction_bounds": [
+          0.66,
+          0.66
+        ],
+        "successes": 66
+      },
+      "original_results_sha256": "951cce9fbe87e5bf9843711d8a38b844374dd546362bba1f07157fc1dbb99c75",
+      "replay_updates": 199151408,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 232191008,
+      "checkpoint_sha256": "10498433c27a735755d4d5c4c89faf79350cf1b68c3f61e1a010e34bdc31294f",
+      "completed_epochs": 224,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 22860,
+        "failures": 30,
+        "mean_raw_environment_return": 126.77195200398607,
+        "observed_success_fraction": 0.7,
+        "success_fraction_bounds": [
+          0.7,
+          0.7
+        ],
+        "successes": 70
+      },
+      "original_results_sha256": "38b47d0e0eba4a7a66909d67cc9c996f1cd8101c2ed197a7f65f50c5e0a8d95a",
+      "replay_updates": 232142440,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 265220317,
+      "checkpoint_sha256": "346679506999e8f366f3d09bd9e1bd024d51686a9a0db357f8678951a4e8551b",
+      "completed_epochs": 256,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 22936,
+        "failures": 29,
+        "mean_raw_environment_return": 144.9829820867492,
+        "observed_success_fraction": 0.71,
+        "success_fraction_bounds": [
+          0.71,
+          0.71
+        ],
+        "successes": 71
+      },
+      "original_results_sha256": "07123f37dc5503af1687a040798ab245591afdec673fbc03f7f3c552b8f548f4",
+      "replay_updates": 265171749,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 273514803,
+      "checkpoint_sha256": "73d1ac248cccd7d60d7d4f8681775a1830200e9f43c550829b06bc4d4352ea6d",
+      "completed_epochs": 264,
+      "condition": "uniform_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 66334,
+        "failures": 29,
+        "mean_raw_environment_return": 131.89928706534914,
+        "observed_success_fraction": 0.71,
+        "success_fraction_bounds": [
+          0.71,
+          0.71
+        ],
+        "successes": 71
+      },
+      "original_results_sha256": "5e67d3be5f22b1df8d9d7e131d16a07fab9d31ed6523154cebadb1d733fd25cd",
+      "replay_updates": 273466235,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 33284144,
+      "checkpoint_sha256": "9381f107d38f41df22f4f0f122da45ccc84db9b8eaecd5b6e805c9a7e08a95c5",
+      "completed_epochs": 32,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 4,
+        "episodes": 100,
+        "evaluation_steps": 415508,
+        "failures": 76,
+        "mean_raw_environment_return": -138.24265760183064,
+        "observed_success_fraction": 0.2,
+        "success_fraction_bounds": [
+          0.2,
+          0.24
+        ],
+        "successes": 20
+      },
+      "original_results_sha256": "34f6780dd5c57d38cd9c64916ab892df7e6ba2e4f76bdf6315801276c6423a4b",
+      "replay_updates": 33280389,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 66797622,
+      "checkpoint_sha256": "1f6c9625663bab38b63fe3b523cd122e37cef6a062b498dc0bef3ae6ae95e012",
+      "completed_epochs": 64,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 3,
+        "episodes": 100,
+        "evaluation_steps": 321613,
+        "failures": 63,
+        "mean_raw_environment_return": -115.0833811128424,
+        "observed_success_fraction": 0.34,
+        "success_fraction_bounds": [
+          0.34,
+          0.37
+        ],
+        "successes": 34
+      },
+      "original_results_sha256": "b788881567d3a191e584c5c4e0d7a979bdcc1f7cae0574959af914e120eda07f",
+      "replay_updates": 66777775,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 100192044,
+      "checkpoint_sha256": "282472e30bf1fa0a00cfbb18c00834a50793deb141e8c6b45a6581cc22ee767a",
+      "completed_epochs": 96,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 34526,
+        "failures": 49,
+        "mean_raw_environment_return": 32.516329151050165,
+        "observed_success_fraction": 0.51,
+        "success_fraction_bounds": [
+          0.51,
+          0.51
+        ],
+        "successes": 51
+      },
+      "original_results_sha256": "dcf57b9e2f978b75dc402bbf55975d4c13e90fa7b57713fb5fc4d4359c05568d",
+      "replay_updates": 100158813,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 133513357,
+      "checkpoint_sha256": "4a4b9eccea4b9cdd90e1bf6d33c4e8e9be4d6afb1da4461adeb7d8c7bb56356f",
+      "completed_epochs": 128,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 32874,
+        "failures": 23,
+        "mean_raw_environment_return": 147.97672772413426,
+        "observed_success_fraction": 0.77,
+        "success_fraction_bounds": [
+          0.77,
+          0.77
+        ],
+        "successes": 77
+      },
+      "original_results_sha256": "bebea2236c497982ba5832c6d20c022d229f1c9369eda4fcc0801a46125b2a33",
+      "replay_updates": 133480126,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 166996639,
+      "checkpoint_sha256": "acea0c77410d4de13441fe2ce1846dba8277249c55af351bc2c8c8c66a519bcd",
+      "completed_epochs": 160,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 28929,
+        "failures": 23,
+        "mean_raw_environment_return": 154.6305744132124,
+        "observed_success_fraction": 0.77,
+        "success_fraction_bounds": [
+          0.77,
+          0.77
+        ],
+        "successes": 77
+      },
+      "original_results_sha256": "49cbea76b4a501216a31a6fe7df2fbebc2cd94914a288c193e9323824596e519",
+      "replay_updates": 166518911,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 199954693,
+      "checkpoint_sha256": "7e56588a9c74159e854a80caa9ae563ae5a0f4bb5c1df585e4b40ad6edc33ee7",
+      "completed_epochs": 192,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 29439,
+        "failures": 18,
+        "mean_raw_environment_return": 178.84149124143173,
+        "observed_success_fraction": 0.82,
+        "success_fraction_bounds": [
+          0.82,
+          0.82
+        ],
+        "successes": 82
+      },
+      "original_results_sha256": "ced0d47d101a40a9c2f81ed44d055677da88678c1342c364261ec887ce3f2183",
+      "replay_updates": 199476965,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 232900066,
+      "checkpoint_sha256": "968d7d0f54da388b3c20a9dc0196f9d159839977965b0483a738ce1a7573a22d",
+      "completed_epochs": 224,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 152481,
+        "failures": 15,
+        "mean_raw_environment_return": 168.52877001747095,
+        "observed_success_fraction": 0.85,
+        "success_fraction_bounds": [
+          0.85,
+          0.85
+        ],
+        "successes": 85
+      },
+      "original_results_sha256": "a4f119ad333dbcf3a7461fbb140cc24f088ea6e89f5768c34884be931ac2f7f1",
+      "replay_updates": 232415655,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 265902523,
+      "checkpoint_sha256": "d14744416c9f69e9546f2ce0353ae0ae25dbd76b42f6fa3b5dea8827b3ce4f0d",
+      "completed_epochs": 256,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 27655,
+        "failures": 24,
+        "mean_raw_environment_return": 170.90154122258346,
+        "observed_success_fraction": 0.76,
+        "success_fraction_bounds": [
+          0.76,
+          0.76
+        ],
+        "successes": 76
+      },
+      "original_results_sha256": "ab6105a1a0f3a2bc4d62ed11ee9d5894d4904e9e08d32c3e3d78c6315170de39",
+      "replay_updates": 265418112,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 274135436,
+      "checkpoint_sha256": "9ca7e802768055b18e5bb27fea303b07eac3adec021362e57c15610f62400214",
+      "completed_epochs": 264,
+      "condition": "random_visited",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 29244,
+        "failures": 19,
+        "mean_raw_environment_return": 187.87256277971443,
+        "observed_success_fraction": 0.81,
+        "success_fraction_bounds": [
+          0.81,
+          0.81
+        ],
+        "successes": 81
+      },
+      "original_results_sha256": "4d96158a0f15ec0891ad6d30963034b70a28f7b14879be2e32f0dadf2f20b821",
+      "replay_updates": 273651025,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 33639011,
+      "checkpoint_sha256": "3e4fd25f200a06518e55c09fdedf22f575159f4f99acb055d27e826dc5efaabd",
+      "completed_epochs": 32,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 2,
+        "episodes": 100,
+        "evaluation_steps": 295780,
+        "failures": 39,
+        "mean_raw_environment_return": 74.19949079522817,
+        "observed_success_fraction": 0.59,
+        "success_fraction_bounds": [
+          0.59,
+          0.61
+        ],
+        "successes": 59
+      },
+      "original_results_sha256": "4db1e2827dbc92d815dc55891d2bf34120cf819b36363aa52dccce366fcdd0c6",
+      "replay_updates": 33582912,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 67389416,
+      "checkpoint_sha256": "a9abb5e8ab9fffa4b0ba396baae3668c0bd9e6eed0a6ba038a90034ef63e17ff",
+      "completed_epochs": 64,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 38162,
+        "failures": 24,
+        "mean_raw_environment_return": 166.65629316823745,
+        "observed_success_fraction": 0.76,
+        "success_fraction_bounds": [
+          0.76,
+          0.76
+        ],
+        "successes": 76
+      },
+      "original_results_sha256": "76ff537b51048cd4fd09494b48c952b58f45bc0418673c65f3a026cebfd2bef7",
+      "replay_updates": 67316195,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 100620335,
+      "checkpoint_sha256": "f086b9dbfce4bdee75eee730847d721f888d5287c30a3b7a0fa4734a5668b97d",
+      "completed_epochs": 96,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 18706,
+        "failures": 62,
+        "mean_raw_environment_return": 14.873266585424451,
+        "observed_success_fraction": 0.38,
+        "success_fraction_bounds": [
+          0.38,
+          0.38
+        ],
+        "successes": 38
+      },
+      "original_results_sha256": "ed6b6488551da0c0c2fe95b041c952cb2c27559b6fe068a878f9e58d7079e645",
+      "replay_updates": 100547114,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 133730652,
+      "checkpoint_sha256": "957f38addbd21918ccc04994d34867b3219ea7718d2132fd89ae04a8ee86cd70",
+      "completed_epochs": 128,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 124276,
+        "failures": 15,
+        "mean_raw_environment_return": 177.7926763373703,
+        "observed_success_fraction": 0.84,
+        "success_fraction_bounds": [
+          0.84,
+          0.85
+        ],
+        "successes": 84
+      },
+      "original_results_sha256": "43628519afa249050eb394201119bca1e35206451d12bf3847a860998d76c399",
+      "replay_updates": 133657431,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 166894354,
+      "checkpoint_sha256": "6d27304637c017150da84a246d5a1b5a18a1cfdd24ba23e425498d5605096229",
+      "completed_epochs": 160,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 21260,
+        "failures": 19,
+        "mean_raw_environment_return": 190.6508580259185,
+        "observed_success_fraction": 0.81,
+        "success_fraction_bounds": [
+          0.81,
+          0.81
+        ],
+        "successes": 81
+      },
+      "original_results_sha256": "fd8590c0a978c2deeae862193a0497a1763be09b3140022122546000893c25c6",
+      "replay_updates": 166782689,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 201335563,
+      "checkpoint_sha256": "a9c41110c7d75357569e7e34126538bac002201953f065dd72e63b4c4d1cc054",
+      "completed_epochs": 192,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 23369,
+        "failures": 20,
+        "mean_raw_environment_return": 190.28761684298868,
+        "observed_success_fraction": 0.8,
+        "success_fraction_bounds": [
+          0.8,
+          0.8
+        ],
+        "successes": 80
+      },
+      "original_results_sha256": "488949b18da50ebcab93fb30711d9800f1707f0baf808c92ce246dc788daeefc",
+      "replay_updates": 199848608,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 234389750,
+      "checkpoint_sha256": "0439d3de49e37d8369c2577cbddaafd89d8c744ddf082c89195ae49dccfdb1cf",
+      "completed_epochs": 224,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 159874,
+        "failures": 19,
+        "mean_raw_environment_return": 126.76106385461195,
+        "observed_success_fraction": 0.8,
+        "success_fraction_bounds": [
+          0.8,
+          0.81
+        ],
+        "successes": 80
+      },
+      "original_results_sha256": "07311072a974c95f77f28653cb9dc3c85bc91ecd5aefb08010a3a747eff42f0d",
+      "replay_updates": 232902795,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 267756671,
+      "checkpoint_sha256": "4cb21409374133b38610e4cb7ae3d74be8eae4b0ef4359fffa59944091b2e613",
+      "completed_epochs": 256,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 60292,
+        "failures": 27,
+        "mean_raw_environment_return": 159.86587506013305,
+        "observed_success_fraction": 0.73,
+        "success_fraction_bounds": [
+          0.73,
+          0.73
+        ],
+        "successes": 73
+      },
+      "original_results_sha256": "565db2821d2922ab5a5ac18f4c19e77dd828c9911510490e5326712f57c332a4",
+      "replay_updates": 266074596,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 276021454,
+      "checkpoint_sha256": "31936da489310310fc0edd95e10095f106da63637585ee020eaaaf693dedcf9d",
+      "completed_epochs": 264,
+      "condition": "frequency_wta",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 127513,
+        "failures": 21,
+        "mean_raw_environment_return": 156.756228309996,
+        "observed_success_fraction": 0.78,
+        "success_fraction_bounds": [
+          0.78,
+          0.79
+        ],
+        "successes": 78
+      },
+      "original_results_sha256": "8c6b1e9c346750edba3bb915eba11618aba8431116807fc96a0c5f2728ec9c40",
+      "replay_updates": 274339379,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 33103282,
+      "checkpoint_sha256": "6a06a8a2d567d9ba7290e7d8cf4c8297b0ee605a0c4381b30d0df0c9457b35a5",
+      "completed_epochs": 32,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 20851,
+        "failures": 54,
+        "mean_raw_environment_return": 67.97307603311354,
+        "observed_success_fraction": 0.46,
+        "success_fraction_bounds": [
+          0.46,
+          0.46
+        ],
+        "successes": 46
+      },
+      "original_results_sha256": "f7e031ecab1117379aa9c89957c59105e1e92c0b068fb0a651bf55d1fe31e789",
+      "replay_updates": 33103282,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 66525117,
+      "checkpoint_sha256": "04c3400b0c91b37ab988cf2bcbbef80763a54ef91bbc1ced0a8267dbc608ec82",
+      "completed_epochs": 64,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 129092,
+        "failures": 31,
+        "mean_raw_environment_return": 129.77885813016218,
+        "observed_success_fraction": 0.68,
+        "success_fraction_bounds": [
+          0.68,
+          0.69
+        ],
+        "successes": 68
+      },
+      "original_results_sha256": "a11efc1047c2ccb430dae46fb4097d0718298da9a3db50d84120b290a9e629bb",
+      "replay_updates": 66525117,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 99669701,
+      "checkpoint_sha256": "f46cb37a45f88d98f9726dce3a257568abc395fe44efd22f11e585da954e47d6",
+      "completed_epochs": 96,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 20863,
+        "failures": 33,
+        "mean_raw_environment_return": 130.79087818236482,
+        "observed_success_fraction": 0.67,
+        "success_fraction_bounds": [
+          0.67,
+          0.67
+        ],
+        "successes": 67
+      },
+      "original_results_sha256": "676245755317b05e3df68fc12d307120fe0d443cd22f61cc254b23779c037f8c",
+      "replay_updates": 99669701,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 132672256,
+      "checkpoint_sha256": "19f975cccab5cc02485c7f70e86ec16cd695fa8770c778d6a1eb3c017db8308d",
+      "completed_epochs": 128,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 2,
+        "episodes": 100,
+        "evaluation_steps": 239468,
+        "failures": 32,
+        "mean_raw_environment_return": 142.18507932086584,
+        "observed_success_fraction": 0.66,
+        "success_fraction_bounds": [
+          0.66,
+          0.68
+        ],
+        "successes": 66
+      },
+      "original_results_sha256": "a7afd2bbb51bf3ad37feb43435264bb4c4fae115d4f245594a594fecbf1adb91",
+      "replay_updates": 132672256,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 165722989,
+      "checkpoint_sha256": "d72c4fd3b8e5e90b5d0b35317c59273305f7a7e3093c8e7cc0e7c541181988a0",
+      "completed_epochs": 160,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 141286,
+        "failures": 20,
+        "mean_raw_environment_return": 176.57673351195757,
+        "observed_success_fraction": 0.79,
+        "success_fraction_bounds": [
+          0.79,
+          0.8
+        ],
+        "successes": 79
+      },
+      "original_results_sha256": "d08783f9b0b05c869eb33e5eeccf5f57a087c2b61bdf2b7b5cb14df1a2f3d36b",
+      "replay_updates": 165722989,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 198759156,
+      "checkpoint_sha256": "f7ab552a52beaeb94e013f66d42907f221edb7fdd1df1ad3b71519445f6f41cd",
+      "completed_epochs": 192,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 2,
+        "episodes": 100,
+        "evaluation_steps": 240241,
+        "failures": 33,
+        "mean_raw_environment_return": 126.51641191768033,
+        "observed_success_fraction": 0.65,
+        "success_fraction_bounds": [
+          0.65,
+          0.67
+        ],
+        "successes": 65
+      },
+      "original_results_sha256": "56d56df95833170f1627c0874e1b642e9865cdcd67db68ea3e1a9717e8cc2a34",
+      "replay_updates": 198759156,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 231930055,
+      "checkpoint_sha256": "a0385a0ec929433a81483ca1167010d88c4b8e2f578067d2f5bf98b159922f50",
+      "completed_epochs": 224,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 22662,
+        "failures": 24,
+        "mean_raw_environment_return": 182.08854234043753,
+        "observed_success_fraction": 0.76,
+        "success_fraction_bounds": [
+          0.76,
+          0.76
+        ],
+        "successes": 76
+      },
+      "original_results_sha256": "e1c4f0f9da9e0739632cc3888ba438800d733c0532c8bd55c77b67389fa16baf",
+      "replay_updates": 231924109,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 264955306,
+      "checkpoint_sha256": "d17c9ea588b0b63a162760e166c067719c0e74183cc38bfb234b1ee26b438431",
+      "completed_epochs": 256,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 0,
+        "episodes": 100,
+        "evaluation_steps": 22012,
+        "failures": 27,
+        "mean_raw_environment_return": 174.6060886304547,
+        "observed_success_fraction": 0.73,
+        "success_fraction_bounds": [
+          0.73,
+          0.73
+        ],
+        "successes": 73
+      },
+      "original_results_sha256": "19d7d3f7d9035e3f5accf55a92e41c83599123ea1d940bedf91c8e5f23de5b2f",
+      "replay_updates": 264949360,
+      "training_seed": 103
+    },
+    {
+      "actual_training_steps": 273234621,
+      "checkpoint_sha256": "39849f2e062f4c0a4b4a85064ee4b5523726c0bb194df57b94f630e81f2f8e8d",
+      "completed_epochs": 264,
+      "condition": "count_weighted_mean",
+      "evaluation": {
+        "censored": 1,
+        "episodes": 100,
+        "evaluation_steps": 122875,
+        "failures": 29,
+        "mean_raw_environment_return": 140.2895884249372,
+        "observed_success_fraction": 0.7,
+        "success_fraction_bounds": [
+          0.7,
+          0.71
+        ],
+        "successes": 70
+      },
+      "original_results_sha256": "561a3522a787162c9048623cd1bf8bc31911c0269479bdb1f21b0fd250246b8a",
+      "replay_updates": 273228675,
+      "training_seed": 103
+    }
+  ],
+  "paired_seed_differences": {
+    "count_weighted_mean": {
+      "difference": {
+        "mean": 0.11833333333333333,
+        "n_training_seeds": 3,
+        "sample_standard_deviation": 0.03785938897200176
+      },
+      "pairs": [
+        {
+          "difference_censoring_bounds": [
+            0.07000000000000006,
+            0.07500000000000007
+          ],
+          "observed_success_fraction_difference": 0.07500000000000007,
+          "training_seed": 101
+        },
+        {
+          "difference_censoring_bounds": [
+            0.1449999999999999,
+            0.1449999999999999
+          ],
+          "observed_success_fraction_difference": 0.1449999999999999,
+          "training_seed": 102
+        },
+        {
+          "difference_censoring_bounds": [
+            0.13,
+            0.14
+          ],
+          "observed_success_fraction_difference": 0.135,
+          "training_seed": 103
+        }
+      ]
+    },
+    "random_visited": {
+      "difference": {
+        "mean": 0.003333333333333336,
+        "n_training_seeds": 3,
+        "sample_standard_deviation": 0.020207259421636918
+      },
+      "pairs": [
+        {
+          "difference_censoring_bounds": [
+            0.020000000000000018,
+            0.025000000000000022
+          ],
+          "observed_success_fraction_difference": 0.025000000000000022,
+          "training_seed": 101
+        },
+        {
+          "difference_censoring_bounds": [
+            0.0,
+            0.0
+          ],
+          "observed_success_fraction_difference": 0.0,
+          "training_seed": 102
+        },
+        {
+          "difference_censoring_bounds": [
+            -0.030000000000000027,
+            -0.010000000000000009
+          ],
+          "observed_success_fraction_difference": -0.015000000000000013,
+          "training_seed": 103
+        }
+      ]
+    },
+    "uniform_mean": {
+      "difference": {
+        "mean": 0.20666666666666667,
+        "n_training_seeds": 3,
+        "sample_standard_deviation": 0.13805192259919208
+      },
+      "pairs": [
+        {
+          "difference_censoring_bounds": [
+            0.24,
+            0.24
+          ],
+          "observed_success_fraction_difference": 0.24,
+          "training_seed": 101
+        },
+        {
+          "difference_censoring_bounds": [
+            0.31999999999999995,
+            0.32499999999999996
+          ],
+          "observed_success_fraction_difference": 0.32499999999999996,
+          "training_seed": 102
+        },
+        {
+          "difference_censoring_bounds": [
+            0.050000000000000044,
+            0.06000000000000005
+          ],
+          "observed_success_fraction_difference": 0.05500000000000005,
+          "training_seed": 103
+        }
+      ]
+    }
+  },
+  "planned_epochs": 264,
+  "raw_evaluation_episodes": 13200,
+  "schema_version": 1,
+  "selection": {},
+  "study_id": "actual_trainer_aggregation_comparison"
+}

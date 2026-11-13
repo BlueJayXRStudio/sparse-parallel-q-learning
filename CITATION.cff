@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software or its experimental results, please cite this repository."
+title: "Sparse Parallel Q-Learning"
+type: software
+authors:
+  - family-names: "Oh"
+    given-names: "Jaeyoung"
+repository-code: "https://github.com/BlueJayXRStudio/sparse-parallel-q-learning"
+url: "https://github.com/BlueJayXRStudio/sparse-parallel-q-learning"
+license: MIT
+keywords:
+  - reinforcement learning
+  - sparse rewards
+  - parallel tabular Q-learning
+  - LunarLander-v3
+  - frequency-based winner-takes-all

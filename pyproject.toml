@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sparse-parallel-q-learning"
+version = "0.1.0"
+description = "Parallel tabular Q-learning with terminal-only rewards: frequency WTA, random selection, and averaging on LunarLander-v3."
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+license = {text = "MIT"}
+authors = [{name = "Jaeyoung Oh"}]
+keywords = ["reinforcement learning", "sparse rewards", "tabular Q-learning", "LunarLander", "MPI", "winner-takes-all"]
+dependencies = [
+  "gymnasium[box2d]==1.1.1",
+  "box2d-py==2.3.5",
+  "pygame==2.6.1",
+  "numpy==2.0.2",
+  "torch==2.8.0",
+  "mpi4py==4.1.2",
+]
+
+[project.optional-dependencies]
+analysis = ["matplotlib==3.9.4"]
+
+[project.urls]
+Repository = "https://github.com/BlueJayXRStudio/sparse-parallel-q-learning"
+Issues = "https://github.com/BlueJayXRStudio/sparse-parallel-q-learning/issues"
+
+[project.scripts]
+spq-compare = "sparse_parallel_q.compare_aggregations:main"
+spq-analyze = "sparse_parallel_q.analyze:main"
+
+[tool.setuptools.packages.find]
+include = ["sparse_parallel_q*"]
+
+[tool.setuptools.package-data]
+sparse_parallel_q = ["configs/*.json"]
+

@@ -1,0 +1,873 @@
+{
+  "conditions": {
+    "count_weighted_mean": {
+      "mean_curve_thresholds": {
+        "0.5": {
+          "first_epoch_above_at_all_remaining_checks": 64,
+          "first_observed_epoch": 64,
+          "first_two_consecutive_checks_start": 64
+        },
+        "0.6": {
+          "first_epoch_above_at_all_remaining_checks": 64,
+          "first_observed_epoch": 64,
+          "first_two_consecutive_checks_start": 64
+        },
+        "0.7": {
+          "first_epoch_above_at_all_remaining_checks": null,
+          "first_observed_epoch": 160,
+          "first_two_consecutive_checks_start": null
+        },
+        "0.75": {
+          "first_epoch_above_at_all_remaining_checks": null,
+          "first_observed_epoch": null,
+          "first_two_consecutive_checks_start": null
+        },
+        "0.8": {
+          "first_epoch_above_at_all_remaining_checks": null,
+          "first_observed_epoch": null,
+          "first_two_consecutive_checks_start": null
+        }
+      },
+      "mean_normalized_auc": 0.6663218390804597,
+      "mean_normalized_auc_censoring_bounds": [
+        0.6663218390804597,
+        0.6743103448275862
+      ],
+      "mean_observed_landing_fractions": [
+        0.48333333333333334,
+        0.67,
+        0.6366666666666667,
+        0.6633333333333333,
+        0.7133333333333334,
+        0.6900000000000001,
+        0.67,
+        0.7366666666666667,
+        0.6833333333333333
+      ],
+      "sample_sd_normalized_auc": 0.024476889372571767,
+      "seeds": [
+        {
+          "normalized_auc": 0.6394827586206896,
+          "normalized_auc_censoring_bounds": [
+            0.6394827586206896,
+            0.6513793103448277
+          ],
+          "observed_landing_fractions": [
+            0.51,
+            0.64,
+            0.59,
+            0.68,
+            0.67,
+            0.68,
+            0.59,
+            0.72,
+            0.65
+          ],
+          "thresholds": {
+            "0.5": {
+              "first_epoch_above_at_all_remaining_checks": 32,
+              "first_observed_epoch": 32,
+              "first_two_consecutive_checks_start": 32
+            },
+            "0.6": {
+              "first_epoch_above_at_all_remaining_checks": 256,
+              "first_observed_epoch": 64,
+              "first_two_consecutive_checks_start": 128
+            },
+            "0.7": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": 256,
+              "first_two_consecutive_checks_start": null
+            },
+            "0.75": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            },
+            "0.8": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            }
+          },
+          "training_seed": 101
+        },
+        {
+          "normalized_auc": 0.6720689655172414,
+          "normalized_auc_censoring_bounds": [
+            0.6720689655172414,
+            0.6756896551724138
+          ],
+          "observed_landing_fractions": [
+            0.48,
+            0.69,
+            0.65,
+            0.65,
+            0.68,
+            0.74,
+            0.66,
+            0.76,
+            0.7
+          ],
+          "thresholds": {
+            "0.5": {
+              "first_epoch_above_at_all_remaining_checks": 64,
+              "first_observed_epoch": 64,
+              "first_two_consecutive_checks_start": 64
+            },
+            "0.6": {
+              "first_epoch_above_at_all_remaining_checks": 64,
+              "first_observed_epoch": 64,
+              "first_two_consecutive_checks_start": 64
+            },
+            "0.7": {
+              "first_epoch_above_at_all_remaining_checks": 256,
+              "first_observed_epoch": 192,
+              "first_two_consecutive_checks_start": 256
+            },
+            "0.75": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": 256,
+              "first_two_consecutive_checks_start": null
+            },
+            "0.8": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            }
+          },
+          "training_seed": 102
+        },
+        {
+          "normalized_auc": 0.6874137931034483,
+          "normalized_auc_censoring_bounds": [
+            0.6874137931034483,
+            0.6958620689655173
+          ],
+          "observed_landing_fractions": [
+            0.46,
+            0.68,
+            0.67,
+            0.66,
+            0.79,
+            0.65,
+            0.76,
+            0.73,
+            0.7
+          ],
+          "thresholds": {
+            "0.5": {
+              "first_epoch_above_at_all_remaining_checks": 64,
+              "first_observed_epoch": 64,
+              "first_two_consecutive_checks_start": 64
+            },
+            "0.6": {
+              "first_epoch_above_at_all_remaining_checks": 64,
+              "first_observed_epoch": 64,
+              "first_two_consecutive_checks_start": 64
+            },
+            "0.7": {
+              "first_epoch_above_at_all_remaining_checks": 224,
+              "first_observed_epoch": 160,
+              "first_two_consecutive_checks_start": 224
+            },
+            "0.75": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": 160,
+              "first_two_consecutive_checks_start": null
+            },
+            "0.8": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            }
+          },
+          "training_seed": 103
+        }
+      ]
+    },
+    "frequency_wta": {
+      "mean_curve_thresholds": {
+        "0.5": {
+          "first_epoch_above_at_all_remaining_checks": 64,
+          "first_observed_epoch": 64,
+          "first_two_consecutive_checks_start": 64
+        },
+        "0.6": {
+          "first_epoch_above_at_all_remaining_checks": 128,
+          "first_observed_epoch": 64,
+          "first_two_consecutive_checks_start": 128
+        },
+        "0.7": {
+          "first_epoch_above_at_all_remaining_checks": 128,
+          "first_observed_epoch": 128,
+          "first_two_consecutive_checks_start": 128
+        },
+        "0.75": {
+          "first_epoch_above_at_all_remaining_checks": 264,
+          "first_observed_epoch": 128,
+          "first_two_consecutive_checks_start": 128
+        },
+        "0.8": {
+          "first_epoch_above_at_all_remaining_checks": null,
+          "first_observed_epoch": null,
+          "first_two_consecutive_checks_start": null
+        }
+      },
+      "mean_normalized_auc": 0.7036206896551723,
+      "mean_normalized_auc_censoring_bounds": [
+        0.7036206896551723,
+        0.70816091954023
+      ],
+      "mean_observed_landing_fractions": [
+        0.4933333333333333,
+        0.6033333333333333,
+        0.5566666666666666,
+        0.7866666666666666,
+        0.7866666666666666,
+        0.7666666666666667,
+        0.7966666666666667,
+        0.7333333333333334,
+        0.7966666666666666
+      ],
+      "sample_sd_normalized_auc": 0.055256132603084915,
+      "seeds": [
+        {
+          "normalized_auc": 0.6413793103448275,
+          "normalized_auc_censoring_bounds": [
+            0.6413793103448275,
+            0.6470689655172414
+          ],
+          "observed_landing_fractions": [
+            0.29,
+            0.42,
+            0.61,
+            0.74,
+            0.72,
+            0.73,
+            0.78,
+            0.66,
+            0.74
+          ],
+          "thresholds": {
+            "0.5": {
+              "first_epoch_above_at_all_remaining_checks": 96,
+              "first_observed_epoch": 96,
+              "first_two_consecutive_checks_start": 96
+            },
+            "0.6": {
+              "first_epoch_above_at_all_remaining_checks": 96,
+              "first_observed_epoch": 96,
+              "first_two_consecutive_checks_start": 96
+            },
+            "0.7": {
+              "first_epoch_above_at_all_remaining_checks": 264,
+              "first_observed_epoch": 128,
+              "first_two_consecutive_checks_start": 128
+            },
+            "0.75": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": 224,
+              "first_two_consecutive_checks_start": null
+            },
+            "0.8": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            }
+          },
+          "training_seed": 101
+        },
+        {
+          "normalized_auc": 0.7468965517241379,
+          "normalized_auc_censoring_bounds": [
+            0.7468965517241379,
+            0.7505172413793104
+          ],
+          "observed_landing_fractions": [
+            0.6,
+            0.63,
+            0.68,
+            0.78,
+            0.83,
+            0.77,
+            0.81,
+            0.81,
+            0.87
+          ],
+          "thresholds": {
+            "0.5": {
+              "first_epoch_above_at_all_remaining_checks": 32,
+              "first_observed_epoch": 32,
+              "first_two_consecutive_checks_start": 32
+            },
+            "0.6": {
+              "first_epoch_above_at_all_remaining_checks": 32,
+              "first_observed_epoch": 32,
+              "first_two_consecutive_checks_start": 32
+            },
+            "0.7": {
+              "first_epoch_above_at_all_remaining_checks": 128,
+              "first_observed_epoch": 128,
+              "first_two_consecutive_checks_start": 128
+            },
+            "0.75": {
+              "first_epoch_above_at_all_remaining_checks": 128,
+              "first_observed_epoch": 128,
+              "first_two_consecutive_checks_start": 128
+            },
+            "0.8": {
+              "first_epoch_above_at_all_remaining_checks": 224,
+              "first_observed_epoch": 160,
+              "first_two_consecutive_checks_start": 224
+            }
+          },
+          "training_seed": 102
+        },
+        {
+          "normalized_auc": 0.7225862068965516,
+          "normalized_auc_censoring_bounds": [
+            0.7225862068965516,
+            0.726896551724138
+          ],
+          "observed_landing_fractions": [
+            0.59,
+            0.76,
+            0.38,
+            0.84,
+            0.81,
+            0.8,
+            0.8,
+            0.73,
+            0.78
+          ],
+          "thresholds": {
+            "0.5": {
+              "first_epoch_above_at_all_remaining_checks": 128,
+              "first_observed_epoch": 32,
+              "first_two_consecutive_checks_start": 32
+            },
+            "0.6": {
+              "first_epoch_above_at_all_remaining_checks": 128,
+              "first_observed_epoch": 64,
+              "first_two_consecutive_checks_start": 128
+            },
+            "0.7": {
+              "first_epoch_above_at_all_remaining_checks": 128,
+              "first_observed_epoch": 64,
+              "first_two_consecutive_checks_start": 128
+            },
+            "0.75": {
+              "first_epoch_above_at_all_remaining_checks": 264,
+              "first_observed_epoch": 64,
+              "first_two_consecutive_checks_start": 128
+            },
+            "0.8": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": 128,
+              "first_two_consecutive_checks_start": 128
+            }
+          },
+          "training_seed": 103
+        }
+      ]
+    },
+    "random_visited": {
+      "mean_curve_thresholds": {
+        "0.5": {
+          "first_epoch_above_at_all_remaining_checks": 96,
+          "first_observed_epoch": 96,
+          "first_two_consecutive_checks_start": 96
+        },
+        "0.6": {
+          "first_epoch_above_at_all_remaining_checks": 128,
+          "first_observed_epoch": 128,
+          "first_two_consecutive_checks_start": 128
+        },
+        "0.7": {
+          "first_epoch_above_at_all_remaining_checks": 128,
+          "first_observed_epoch": 128,
+          "first_two_consecutive_checks_start": 128
+        },
+        "0.75": {
+          "first_epoch_above_at_all_remaining_checks": 264,
+          "first_observed_epoch": 192,
+          "first_two_consecutive_checks_start": 192
+        },
+        "0.8": {
+          "first_epoch_above_at_all_remaining_checks": null,
+          "first_observed_epoch": null,
+          "first_two_consecutive_checks_start": null
+        }
+      },
+      "mean_normalized_auc": 0.6161494252873563,
+      "mean_normalized_auc_censoring_bounds": [
+        0.6161494252873563,
+        0.6198275862068966
+      ],
+      "mean_observed_landing_fractions": [
+        0.27,
+        0.2833333333333333,
+        0.5633333333333334,
+        0.7066666666666667,
+        0.7000000000000001,
+        0.77,
+        0.7633333333333333,
+        0.7166666666666667,
+        0.78
+      ],
+      "sample_sd_normalized_auc": 0.03428275330248733,
+      "seeds": [
+        {
+          "normalized_auc": 0.5856896551724138,
+          "normalized_auc_censoring_bounds": [
+            0.5856896551724138,
+            0.5870689655172414
+          ],
+          "observed_landing_fractions": [
+            0.28,
+            0.2,
+            0.63,
+            0.62,
+            0.65,
+            0.73,
+            0.73,
+            0.73,
+            0.72
+          ],
+          "thresholds": {
+            "0.5": {
+              "first_epoch_above_at_all_remaining_checks": 96,
+              "first_observed_epoch": 96,
+              "first_two_consecutive_checks_start": 96
+            },
+            "0.6": {
+              "first_epoch_above_at_all_remaining_checks": 96,
+              "first_observed_epoch": 96,
+              "first_two_consecutive_checks_start": 96
+            },
+            "0.7": {
+              "first_epoch_above_at_all_remaining_checks": 192,
+              "first_observed_epoch": 192,
+              "first_two_consecutive_checks_start": 192
+            },
+            "0.75": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            },
+            "0.8": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            }
+          },
+          "training_seed": 101
+        },
+        {
+          "normalized_auc": 0.6094827586206897,
+          "normalized_auc_censoring_bounds": [
+            0.6094827586206897,
+            0.6122413793103448
+          ],
+          "observed_landing_fractions": [
+            0.33,
+            0.31,
+            0.55,
+            0.73,
+            0.68,
+            0.76,
+            0.71,
+            0.66,
+            0.81
+          ],
+          "thresholds": {
+            "0.5": {
+              "first_epoch_above_at_all_remaining_checks": 96,
+              "first_observed_epoch": 96,
+              "first_two_consecutive_checks_start": 96
+            },
+            "0.6": {
+              "first_epoch_above_at_all_remaining_checks": 128,
+              "first_observed_epoch": 128,
+              "first_two_consecutive_checks_start": 128
+            },
+            "0.7": {
+              "first_epoch_above_at_all_remaining_checks": 264,
+              "first_observed_epoch": 128,
+              "first_two_consecutive_checks_start": 192
+            },
+            "0.75": {
+              "first_epoch_above_at_all_remaining_checks": 264,
+              "first_observed_epoch": 192,
+              "first_two_consecutive_checks_start": null
+            },
+            "0.8": {
+              "first_epoch_above_at_all_remaining_checks": 264,
+              "first_observed_epoch": 264,
+              "first_two_consecutive_checks_start": null
+            }
+          },
+          "training_seed": 102
+        },
+        {
+          "normalized_auc": 0.6532758620689655,
+          "normalized_auc_censoring_bounds": [
+            0.6532758620689655,
+            0.6601724137931034
+          ],
+          "observed_landing_fractions": [
+            0.2,
+            0.34,
+            0.51,
+            0.77,
+            0.77,
+            0.82,
+            0.85,
+            0.76,
+            0.81
+          ],
+          "thresholds": {
+            "0.5": {
+              "first_epoch_above_at_all_remaining_checks": 96,
+              "first_observed_epoch": 96,
+              "first_two_consecutive_checks_start": 96
+            },
+            "0.6": {
+              "first_epoch_above_at_all_remaining_checks": 128,
+              "first_observed_epoch": 128,
+              "first_two_consecutive_checks_start": 128
+            },
+            "0.7": {
+              "first_epoch_above_at_all_remaining_checks": 128,
+              "first_observed_epoch": 128,
+              "first_two_consecutive_checks_start": 128
+            },
+            "0.75": {
+              "first_epoch_above_at_all_remaining_checks": 128,
+              "first_observed_epoch": 128,
+              "first_two_consecutive_checks_start": 128
+            },
+            "0.8": {
+              "first_epoch_above_at_all_remaining_checks": 264,
+              "first_observed_epoch": 192,
+              "first_two_consecutive_checks_start": 192
+            }
+          },
+          "training_seed": 103
+        }
+      ]
+    },
+    "uniform_mean": {
+      "mean_curve_thresholds": {
+        "0.5": {
+          "first_epoch_above_at_all_remaining_checks": 128,
+          "first_observed_epoch": 128,
+          "first_two_consecutive_checks_start": 128
+        },
+        "0.6": {
+          "first_epoch_above_at_all_remaining_checks": 192,
+          "first_observed_epoch": 192,
+          "first_two_consecutive_checks_start": 192
+        },
+        "0.7": {
+          "first_epoch_above_at_all_remaining_checks": null,
+          "first_observed_epoch": null,
+          "first_two_consecutive_checks_start": null
+        },
+        "0.75": {
+          "first_epoch_above_at_all_remaining_checks": null,
+          "first_observed_epoch": null,
+          "first_two_consecutive_checks_start": null
+        },
+        "0.8": {
+          "first_epoch_above_at_all_remaining_checks": null,
+          "first_observed_epoch": null,
+          "first_two_consecutive_checks_start": null
+        }
+      },
+      "mean_normalized_auc": 0.5156321839080461,
+      "mean_normalized_auc_censoring_bounds": [
+        0.5156321839080461,
+        0.5210344827586207
+      ],
+      "mean_observed_landing_fractions": [
+        0.14333333333333334,
+        0.3733333333333333,
+        0.47333333333333333,
+        0.5333333333333333,
+        0.5700000000000001,
+        0.62,
+        0.64,
+        0.6066666666666667,
+        0.62
+      ],
+      "sample_sd_normalized_auc": 0.13811586036320533,
+      "seeds": [
+        {
+          "normalized_auc": 0.5750000000000002,
+          "normalized_auc_censoring_bounds": [
+            0.5750000000000002,
+            0.5829310344827586
+          ],
+          "observed_landing_fractions": [
+            0.28,
+            0.47,
+            0.55,
+            0.55,
+            0.64,
+            0.66,
+            0.69,
+            0.62,
+            0.65
+          ],
+          "thresholds": {
+            "0.5": {
+              "first_epoch_above_at_all_remaining_checks": 96,
+              "first_observed_epoch": 96,
+              "first_two_consecutive_checks_start": 96
+            },
+            "0.6": {
+              "first_epoch_above_at_all_remaining_checks": 160,
+              "first_observed_epoch": 160,
+              "first_two_consecutive_checks_start": 160
+            },
+            "0.7": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            },
+            "0.75": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            },
+            "0.8": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            }
+          },
+          "training_seed": 101
+        },
+        {
+          "normalized_auc": 0.35775862068965514,
+          "normalized_auc_censoring_bounds": [
+            0.35775862068965514,
+            0.3646551724137931
+          ],
+          "observed_landing_fractions": [
+            0.01,
+            0.04,
+            0.3,
+            0.39,
+            0.42,
+            0.54,
+            0.53,
+            0.49,
+            0.5
+          ],
+          "thresholds": {
+            "0.5": {
+              "first_epoch_above_at_all_remaining_checks": 264,
+              "first_observed_epoch": 192,
+              "first_two_consecutive_checks_start": 192
+            },
+            "0.6": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            },
+            "0.7": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            },
+            "0.75": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            },
+            "0.8": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            }
+          },
+          "training_seed": 102
+        },
+        {
+          "normalized_auc": 0.6141379310344829,
+          "normalized_auc_censoring_bounds": [
+            0.6141379310344829,
+            0.6155172413793104
+          ],
+          "observed_landing_fractions": [
+            0.14,
+            0.61,
+            0.57,
+            0.66,
+            0.65,
+            0.66,
+            0.7,
+            0.71,
+            0.71
+          ],
+          "thresholds": {
+            "0.5": {
+              "first_epoch_above_at_all_remaining_checks": 64,
+              "first_observed_epoch": 64,
+              "first_two_consecutive_checks_start": 64
+            },
+            "0.6": {
+              "first_epoch_above_at_all_remaining_checks": 128,
+              "first_observed_epoch": 64,
+              "first_two_consecutive_checks_start": 128
+            },
+            "0.7": {
+              "first_epoch_above_at_all_remaining_checks": 224,
+              "first_observed_epoch": 224,
+              "first_two_consecutive_checks_start": 224
+            },
+            "0.75": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            },
+            "0.8": {
+              "first_epoch_above_at_all_remaining_checks": null,
+              "first_observed_epoch": null,
+              "first_two_consecutive_checks_start": null
+            }
+          },
+          "training_seed": 103
+        }
+      ]
+    }
+  },
+  "method": {
+    "analysis_status": "post-study descriptive, not confirmatory",
+    "auc_rule": "trapezoidal area divided by observed epoch span; no epoch-zero extrapolation",
+    "auc_window": [
+      32,
+      264
+    ],
+    "censoring": "retained in denominator; lower and upper AUC bounds included",
+    "crossings": "first observed checks, not exact or permanent convergence times",
+    "evaluation_bank": "monitoring bank only; final evaluation excluded",
+    "fixed_training_budget": 264,
+    "observed_epochs": [
+      32,
+      64,
+      96,
+      128,
+      160,
+      192,
+      224,
+      256,
+      264
+    ],
+    "speed": "relative AUC gain is not an epoch or wall-clock speed multiplier",
+    "threshold_status": "post-study descriptive benchmarks",
+    "thresholds": [
+      0.5,
+      0.6,
+      0.7,
+      0.75,
+      0.8
+    ]
+  },
+  "schema_version": 1,
+  "wta_contrasts": {
+    "count_weighted_mean": {
+      "mean_normalized_auc_difference": 0.037298850574712605,
+      "paired_wta_minus_other": [
+        {
+          "difference_censoring_bounds": [
+            -0.01000000000000012,
+            0.0075862068965517615
+          ],
+          "normalized_auc_difference": 0.0018965517241379404,
+          "training_seed": 101
+        },
+        {
+          "difference_censoring_bounds": [
+            0.07120689655172419,
+            0.07844827586206904
+          ],
+          "normalized_auc_difference": 0.07482758620689656,
+          "training_seed": 102
+        },
+        {
+          "difference_censoring_bounds": [
+            0.026724137931034342,
+            0.03948275862068973
+          ],
+          "normalized_auc_difference": 0.03517241379310332,
+          "training_seed": 103
+        }
+      ],
+      "relative_auc_gain_not_speed_multiplier": 0.055977229601517964
+    },
+    "random_visited": {
+      "mean_normalized_auc_difference": 0.08747126436781605,
+      "paired_wta_minus_other": [
+        {
+          "difference_censoring_bounds": [
+            0.05431034482758612,
+            0.061379310344827576
+          ],
+          "normalized_auc_difference": 0.055689655172413755,
+          "training_seed": 101
+        },
+        {
+          "difference_censoring_bounds": [
+            0.1346551724137931,
+            0.14103448275862074
+          ],
+          "normalized_auc_difference": 0.13741379310344826,
+          "training_seed": 102
+        },
+        {
+          "difference_censoring_bounds": [
+            0.06241379310344819,
+            0.07362068965517254
+          ],
+          "normalized_auc_difference": 0.06931034482758613,
+          "training_seed": 103
+        }
+      ],
+      "relative_auc_gain_not_speed_multiplier": 0.14196436899542952
+    },
+    "uniform_mean": {
+      "mean_normalized_auc_difference": 0.1879885057471263,
+      "paired_wta_minus_other": [
+        {
+          "difference_censoring_bounds": [
+            0.05844827586206891,
+            0.07206896551724118
+          ],
+          "normalized_auc_difference": 0.06637931034482736,
+          "training_seed": 101
+        },
+        {
+          "difference_censoring_bounds": [
+            0.38224137931034485,
+            0.3927586206896553
+          ],
+          "normalized_auc_difference": 0.3891379310344828,
+          "training_seed": 102
+        },
+        {
+          "difference_censoring_bounds": [
+            0.10706896551724121,
+            0.11275862068965514
+          ],
+          "normalized_auc_difference": 0.10844827586206873,
+          "training_seed": 103
+        }
+      ],
+      "relative_auc_gain_not_speed_multiplier": 0.364578689255461
+    }
+  }
+}

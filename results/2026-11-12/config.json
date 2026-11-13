@@ -1,0 +1,24 @@
+{
+  "checkpoint_every_epochs": 32,
+  "conditions": [
+    "frequency_wta",
+    "count_weighted_mean",
+    "uniform_mean",
+    "random_visited"
+  ],
+  "epochs": 264,
+  "epsilon": 0.03,
+  "epsilon_decay_epochs": 100,
+  "evaluation_guard_steps": 100000,
+  "final_episodes": 200,
+  "local_steps": 64000,
+  "monitor_episodes": 100,
+  "schema_version": 1,
+  "study_id": "actual_trainer_aggregation_comparison",
+  "training_seeds": [
+    101,
+    102,
+    103
+  ],
+  "workers": 16
+}
